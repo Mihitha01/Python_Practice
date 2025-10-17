@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92fd1fc6-42df-4437-ac22-33ae99da0ef2" name="Changes" comment="create initial steps to create a chatbot using python">
-      <change afterPath="$PROJECT_DIR$/GPT ChatBot/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number Guessing Game/guess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brocode1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="92fd1fc6-42df-4437-ac22-33ae99da0ef2" name="Changes" comment="few changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adavanced_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Adavanced_Calculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759931504592</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="few changes">
+      <option name="closed" value="true" />
+      <created>1759931602734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759931602734</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +251,8 @@
     <MESSAGE value="Advanced Calculator" />
     <MESSAGE value="snake Game in python" />
     <MESSAGE value="create initial steps to create a chatbot using python" />
-    <option name="LAST_COMMIT_MESSAGE" value="create initial steps to create a chatbot using python" />
+    <MESSAGE value="few changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="few changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
