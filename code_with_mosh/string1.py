@@ -1,5 +1,5 @@
 first = 'mihitha'
 last = 'bandara'
 
-msg = first + "" + last
+msg = first + " " + last
 print(msg)
