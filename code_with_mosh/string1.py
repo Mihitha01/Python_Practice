@@ -11,3 +11,5 @@ print(msg1)
 course = 'python for beginners'
 print(len(course)) 
 print(course.lower())
+print(course.upper())
+print(course.find('b'))
