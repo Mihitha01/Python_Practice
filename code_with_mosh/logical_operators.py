@@ -3,5 +3,7 @@ low_income = True
 
 if high_income and low_income:
     print("Eligible for the Loan")
-else:
+elif:
     print("Not eligible")
+else:
+    print("Invalid")
