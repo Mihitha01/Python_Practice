@@ -1,2 +1,2 @@
-msg = "Hello World"
-print(msg)
+guess = input("Number you chose is : ")
+print(guess)
