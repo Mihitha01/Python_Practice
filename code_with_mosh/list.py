@@ -7,3 +7,6 @@ print(name[-1])
 
 age = ['ten','twenty','sixty']
 print(age)
+
+marks = [34,53,12,66,89,46,90]
+print(marks)
