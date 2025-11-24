@@ -2,10 +2,12 @@
 numbers = [1, 2, 3, 4]
 names = ["mihitha", "bandara"]
 mixed = [1, "hello", 3.14, True]
+age = [23,24,25]
 
 print("Numbers:", numbers)
 print("Names:", names)
 print("Mixed:", mixed)
+print("Age:", age)
 print()
 
 # --- Accessing items ---
