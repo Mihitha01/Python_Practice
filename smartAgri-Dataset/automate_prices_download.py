@@ -16,44 +16,34 @@ os.makedirs(output_folder, exist_ok=True)
 resp = session.get(URL)
 soup = BeautifulSoup(resp.text, "html.parser")
 
-# find links to each daily report page
-report_links = []
+# find direct PDF links
+pdf_links = []
 for a in soup.select("a"):
     href = a.get("href")
     
-    # Look for link text like "Daily Price Report - ..."
-    if href and "daily-price-report" in href.lower():
-        if href.startswith("/"):
+    # Look for PDF links with price report format
+    if href and href.endswith(".pdf") and "price_report" in href.lower():
+        if not href.startswith("http"):
             href = BASE + href
-        report_links.append(href)
+        pdf_links.append(href)
 
-report_links = list(set(report_links))
+pdf_links = list(set(pdf_links))
 
-print(f"Found {len(report_links)} reports for {YEAR}-{MONTH:02d}")
+print(f"Found {len(pdf_links)} reports for {YEAR}-{MONTH:02d}")
 
 # download each PDF
-for page_url in tqdm(report_links):
+for pdf_url in tqdm(pdf_links):
     try:
-        page = session.get(page_url)
-        page.raise_for_status()
-        page_soup = BeautifulSoup(page.text, "html.parser")
+        filename = pdf_url.split("/")[-1]
+        save_path = os.path.join(output_folder, filename)
 
-        pdf_link = page_soup.find("a", href=lambda x: x and x.endswith(".pdf"))
-        if pdf_link and "href" in pdf_link.attrs:
-            pdf_url = pdf_link["href"]
-            if not pdf_url.startswith("http"):
-                pdf_url = BASE + pdf_url
-
-            filename = pdf_url.split("/")[-1]
-            save_path = os.path.join(output_folder, filename)
-
-            if not os.path.exists(save_path):
-                r = session.get(pdf_url)
-                r.raise_for_status()
-                with open(save_path, "wb") as f:
-                    f.write(r.content)
+        if not os.path.exists(save_path):
+            r = session.get(pdf_url)
+            r.raise_for_status()
+            with open(save_path, "wb") as f:
+                f.write(r.content)
     except Exception as e:
-        print(f"Error processing {page_url}: {e}")
+        print(f"Error downloading {pdf_url}: {e}")
         continue
 
 print("Download complete!")
