@@ -20,7 +20,6 @@ soup = BeautifulSoup(resp.text, "html.parser")
 report_links = []
 for a in soup.select("a"):
     href = a.get("href")
-    text = a.text.strip().lower()
     
     # Look for link text like "Daily Price Report - ..."
     if href and "daily-price-report" in href.lower():
@@ -34,21 +33,27 @@ print(f"Found {len(report_links)} reports for {YEAR}-{MONTH:02d}")
 
 # download each PDF
 for page_url in tqdm(report_links):
-    page = session.get(page_url)
-    page_soup = BeautifulSoup(page.text, "html.parser")
+    try:
+        page = session.get(page_url)
+        page.raise_for_status()
+        page_soup = BeautifulSoup(page.text, "html.parser")
 
-    pdf_link = page_soup.find("a", href=lambda x: x and x.endswith(".pdf"))
-    if pdf_link:
-        pdf_url = pdf_link["href"]
-        if not pdf_url.startswith("http"):
-            pdf_url = BASE + pdf_url
+        pdf_link = page_soup.find("a", href=lambda x: x and x.endswith(".pdf"))
+        if pdf_link and "href" in pdf_link.attrs:
+            pdf_url = pdf_link["href"]
+            if not pdf_url.startswith("http"):
+                pdf_url = BASE + pdf_url
 
-        filename = pdf_url.split("/")[-1]
-        save_path = os.path.join(output_folder, filename)
+            filename = pdf_url.split("/")[-1]
+            save_path = os.path.join(output_folder, filename)
 
-        if not os.path.exists(save_path):
-            r = session.get(pdf_url)
-            with open(save_path, "wb") as f:
-                f.write(r.content)
+            if not os.path.exists(save_path):
+                r = session.get(pdf_url)
+                r.raise_for_status()
+                with open(save_path, "wb") as f:
+                    f.write(r.content)
+    except Exception as e:
+        print(f"Error processing {page_url}: {e}")
+        continue
 
 print("Download complete!")
