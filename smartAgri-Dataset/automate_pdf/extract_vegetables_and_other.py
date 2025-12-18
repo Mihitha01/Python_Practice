@@ -120,39 +120,40 @@ def process_pdf(filepath):
             table = tables[0]
             
             # Find section boundaries
-            vegetables_start = None
-            vegetables_end = None
-            other_start = None
-            other_end = None
+            section_positions = {}
             
             for i, row in enumerate(table):
-                if row[0]:
+                if row and row[0]:
                     cell_text = str(row[0]).upper()
-                    if 'VEGETABLE' in cell_text and vegetables_start is None:
-                        vegetables_start = i
-                    elif 'OTHER' in cell_text and other_start is None:
-                        other_start = i
-                        if vegetables_start is not None:
-                            vegetables_end = i
-                    elif any(kw in cell_text for kw in ['FRUIT', 'RICE', 'FISH', 'MEAT']):
-                        if other_start is not None and other_end is None:
-                            other_end = i
-            
-            # Set default end if not found
-            if vegetables_end is None and vegetables_start is not None:
-                vegetables_end = other_start if other_start else len(table)
-            if other_end is None and other_start is not None:
-                other_end = len(table)
+                    # Remove spaces to match text like "V E G E T A B L E S"
+                    cell_clean = cell_text.replace(' ', '')
+                    
+                    if 'VEGETABLES' in cell_clean:
+                        section_positions['vegetables'] = i
+                    elif 'OTHER' in cell_clean:
+                        section_positions['other'] = i
+                    elif 'FRUITS' in cell_clean:
+                        section_positions['fruit'] = i
+                    elif 'RICE' in cell_clean:
+                        section_positions['rice'] = i
+                    elif 'FISH' in cell_clean:
+                        section_positions['fish'] = i
             
             # Extract vegetable section
-            if vegetables_start is not None and vegetables_end is not None:
+            veg_start = section_positions.get('vegetables')
+            veg_end = section_positions.get('other', section_positions.get('fruit', len(table)))
+            
+            if veg_start is not None:
                 all_data.extend(
-                    extract_section(table, vegetables_start + 1, vegetables_end, 
+                    extract_section(table, veg_start + 1, veg_end, 
                                   'Vegetables', report_date, filename)
                 )
             
             # Extract OTHER section
-            if other_start is not None and other_end is not None:
+            other_start = section_positions.get('other')
+            other_end = section_positions.get('fruit', len(table))
+            
+            if other_start is not None:
                 all_data.extend(
                     extract_section(table, other_start + 1, other_end, 
                                   'Other', report_date, filename)
