@@ -16,7 +16,7 @@ from datetime import datetime
 # CONFIGURATION
 # ==========================================
 PDF_FOLDER = '../price_pdfs_2025_01'
-OUTPUT_FILE = '../extracted_prices.csv'
+OUTPUT_FILE = './extracted_prices.csv'
 
 # Market columns for TODAY prices
 # Due to merged header cells, prices are at indices 2, 4, 6, 8, 10
@@ -168,18 +168,26 @@ def process_pdf(filepath):
 def extract_section(table, start_idx, end_idx, section_name, report_date, filename):
     """Extract price data from a specific section of the table"""
     section_data = []
-    current_item = None
+    item_counter = 1
     
     for row_idx in range(start_idx, end_idx):
         row = table[row_idx]
         
         # Skip rows where the first column indicates another section
-        if row[0] and any(kw in str(row[0]).upper() for kw in ['FRUIT', 'RICE', 'FISH', 'MEAT', 'VEGETABLE', 'OTHER']):
-            break
-        
-        # If first column has text, it's an item name
         if row[0] and str(row[0]).strip():
-            current_item = str(row[0]).strip()
+            cell_text = str(row[0]).upper().replace(' ', '')
+            if any(kw in cell_text for kw in ['VEGETABLES', 'OTHER', 'FRUITS', 'RICE', 'FISH', 'MEAT']):
+                break
+        
+        # Check if this row has any price data
+        has_prices = False
+        for market_name, col_idx in MARKET_INFO:
+            if col_idx < len(row) and row[col_idx]:
+                has_prices = True
+                break
+        
+        if not has_prices:
+            continue
         
         # Extract prices from market columns
         for market_name, col_idx in MARKET_INFO:
@@ -191,7 +199,7 @@ def extract_section(table, start_idx, end_idx, section_name, report_date, filena
                     prices = extract_multiline_prices(price_str)
                     for idx, today_price in enumerate(prices):
                         if today_price is not None:
-                            product_name = current_item if idx == 0 else f"{current_item} ({idx})"
+                            product_name = f"Item {item_counter}" if idx == 0 else f"Item {item_counter} ({idx})"
                             section_data.append({
                                 'Date': report_date,
                                 'Section': section_name,
@@ -202,15 +210,17 @@ def extract_section(table, start_idx, end_idx, section_name, report_date, filena
                             })
                 else:
                     today_price = parse_price_pair(price_str)
-                    if today_price is not None and current_item:
+                    if today_price is not None:
                         section_data.append({
                             'Date': report_date,
                             'Section': section_name,
-                            'Product': current_item,
+                            'Product': f"Item {item_counter}",
                             'Market': market_name,
                             'Price Today': today_price,
                             'Source File': filename
                         })
+        
+        item_counter += 1
     
     return section_data
 
