@@ -1,0 +1,771 @@
+Date,Product,Market,Unit,Price Today
+01 December 2025,Beans,Pettah (Wholesale),Rs./kg,1200.0
+01 December 2025,Beans,Dambulla (Wholesale),Rs./kg,525.0
+01 December 2025,Beans,Pettah (Retail),Rs./kg,1250.0
+01 December 2025,Beans,Dambulla (Retail),Rs./kg,555.0
+01 December 2025,Beans,Narahenpita (Retail),Rs./kg,1600.0
+01 December 2025,Beans,Pettah (Wholesale),Rs./kg,600.0
+01 December 2025,Beans,Pettah (Retail),Rs./kg,650.0
+01 December 2025,Beans,Narahenpita (Retail),Rs./kg,1200.0
+01 December 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,360.0
+01 December 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,60.0
+01 December 2025,Big Onion (Local),Pettah (Retail),Rs./kg,180.0
+01 December 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,220.0
+01 December 2025,Brinjal,Pettah (Wholesale),Rs./kg,100.0
+01 December 2025,Brinjal,Pettah (Retail),Rs./kg,150.0
+01 December 2025,Brinjal,Narahenpita (Retail),Rs./kg,240.0
+01 December 2025,Cabbage,Pettah (Wholesale),Rs./kg,300.0
+01 December 2025,Cabbage,Pettah (Retail),Rs./kg,350.0
+01 December 2025,Cabbage,Narahenpita (Retail),Rs./kg,480.0
+01 December 2025,Carrot,Pettah (Wholesale),Rs./kg,300.0
+01 December 2025,Carrot,Pettah (Retail),Rs./kg,350.0
+01 December 2025,Carrot,Narahenpita (Retail),Rs./kg,600.0
+01 December 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,180.0
+01 December 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,235.0
+01 December 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,220.0
+01 December 2025,Green Chilli,Pettah (Wholesale),Rs./kg,800.0
+01 December 2025,Green Chilli,Pettah (Retail),Rs./kg,1000.0
+01 December 2025,Green Chilli,Narahenpita (Retail),Rs./kg,1600.0
+01 December 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,200.0
+01 December 2025,Katta (Imp),Pettah (Retail),Rs./kg,215.0
+01 December 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,225.0
+01 December 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,750.0
+01 December 2025,Potato (Imp),Pettah (Retail),Rs./kg,750.0
+01 December 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,960.0
+01 December 2025,Potato (Local),Pettah (Wholesale),Rs./kg,93.0
+01 December 2025,Potato (Local),Pettah (Retail),Rs./kg,220.0
+01 December 2025,Potato (Local),Narahenpita (Retail),Rs./kg,220.0
+01 December 2025,Pumpkin,Pettah (Wholesale),Rs./kg,400.0
+01 December 2025,Pumpkin,Pettah (Retail),Rs./kg,450.0
+01 December 2025,Pumpkin,Narahenpita (Retail),Rs./kg,600.0
+01 December 2025,Red Dhal,Pettah (Wholesale),Rs./kg,10.0
+01 December 2025,Red Dhal,Pettah (Retail),Rs./kg,867.0
+01 December 2025,Red Dhal,Narahenpita (Retail),Rs./kg,866.0
+01 December 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,163.0
+01 December 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,168.0
+01 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,440.0
+01 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,20.0
+01 December 2025,Red Onion (Local),Pettah (Retail),Rs./kg,370.0
+01 December 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,180.0
+01 December 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,180.0
+01 December 2025,Snake gourd,Pettah (Wholesale),Rs./kg,900.0
+01 December 2025,Snake gourd,Pettah (Retail),Rs./kg,1000.0
+01 December 2025,Snake gourd,Narahenpita (Retail),Rs./kg,1800.0
+01 December 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,35.0
+01 December 2025,Sprat (Imp),Pettah (Retail),Rs./kg,35.5
+01 December 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,33.0
+01 December 2025,Sugar (White),Pettah (Wholesale),Rs./kg,250.0
+01 December 2025,Sugar (White),Pettah (Retail),Rs./kg,270.0
+01 December 2025,Sugar (White),Narahenpita (Retail),Rs./kg,260.0
+01 December 2025,Tomato,Pettah (Wholesale),Rs./kg,350.0
+01 December 2025,Tomato,Pettah (Retail),Rs./kg,400.0
+01 December 2025,Tomato,Narahenpita (Retail),Rs./kg,600.0
+02 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+02 December 2025,Beans,Dambulla (Wholesale),Rs./kg,25.0
+02 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+02 December 2025,Beans,Dambulla (Retail),Rs./kg,55.0
+02 December 2025,Beans,Narahenpita (Retail),Rs./kg,200.0
+02 December 2025,Beans,Pettah (Wholesale),Rs./kg,50.0
+02 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+02 December 2025,Beans,Narahenpita (Retail),Rs./kg,0.0
+02 December 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,400.0
+02 December 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,60.0
+02 December 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,67.0
+02 December 2025,Big Onion (Local),Pettah (Retail),Rs./kg,80.0
+02 December 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,20.0
+02 December 2025,Brinjal,Pettah (Wholesale),Rs./kg,0.0
+02 December 2025,Brinjal,Pettah (Retail),Rs./kg,30.0
+02 December 2025,Brinjal,Narahenpita (Retail),Rs./kg,20.0
+02 December 2025,Cabbage,Pettah (Wholesale),Rs./kg,0.0
+02 December 2025,Cabbage,Pettah (Retail),Rs./kg,50.0
+02 December 2025,Cabbage,Narahenpita (Retail),Rs./kg,60.0
+02 December 2025,Carrot,Pettah (Wholesale),Rs./kg,0.0
+02 December 2025,Carrot,Pettah (Retail),Rs./kg,50.0
+02 December 2025,Carrot,Narahenpita (Retail),Rs./kg,0.0
+02 December 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,90.0
+02 December 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,0.0
+02 December 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,20.0
+02 December 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+02 December 2025,Green Chilli,Pettah (Retail),Rs./kg,0.0
+02 December 2025,Green Chilli,Narahenpita (Retail),Rs./kg,200.0
+02 December 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,0.0
+02 December 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+02 December 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+02 December 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,50.0
+02 December 2025,Potato (Imp),Pettah (Retail),Rs./kg,50.0
+02 December 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+02 December 2025,Potato (Local),Pettah (Wholesale),Rs./kg,83.0
+02 December 2025,Potato (Local),Pettah (Retail),Rs./kg,20.0
+02 December 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+02 December 2025,Pumpkin,Pettah (Wholesale),Rs./kg,50.0
+02 December 2025,Pumpkin,Pettah (Retail),Rs./kg,0.0
+02 December 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+02 December 2025,Red Dhal,Pettah (Wholesale),Rs./kg,10.0
+02 December 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+02 December 2025,Red Dhal,Narahenpita (Retail),Rs./kg,66.0
+02 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,350.0
+02 December 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,53.0
+02 December 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,58.0
+02 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+02 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,40.0
+02 December 2025,Red Onion (Local),Pettah (Retail),Rs./kg,70.0
+02 December 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,88.0
+02 December 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,88.0
+02 December 2025,Snake gourd,Pettah (Wholesale),Rs./kg,50.0
+02 December 2025,Snake gourd,Pettah (Retail),Rs./kg,0.0
+02 December 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+02 December 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,5.0
+02 December 2025,Sprat (Imp),Pettah (Retail),Rs./kg,5.5
+02 December 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,3.0
+02 December 2025,Sugar (White),Pettah (Wholesale),Rs./kg,50.0
+02 December 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+02 December 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+02 December 2025,Tomato,Pettah (Wholesale),Rs./kg,50.0
+02 December 2025,Tomato,Pettah (Retail),Rs./kg,0.0
+02 December 2025,Tomato,Narahenpita (Retail),Rs./kg,80.0
+03 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+03 December 2025,Beans,Dambulla (Wholesale),Rs./kg,50.0
+03 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+03 December 2025,Beans,Dambulla (Retail),Rs./kg,80.0
+03 December 2025,Beans,Narahenpita (Retail),Rs./kg,0.0
+03 December 2025,Beans,Pettah (Wholesale),Rs./kg,50.0
+03 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+03 December 2025,Beans,Narahenpita (Retail),Rs./kg,0.0
+03 December 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,75.0
+03 December 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,60.0
+03 December 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,73.0
+03 December 2025,Big Onion (Local),Pettah (Retail),Rs./kg,80.0
+03 December 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,20.0
+03 December 2025,Brinjal,Pettah (Wholesale),Rs./kg,0.0
+03 December 2025,Brinjal,Pettah (Retail),Rs./kg,30.0
+03 December 2025,Brinjal,Narahenpita (Retail),Rs./kg,220.0
+03 December 2025,Cabbage,Pettah (Wholesale),Rs./kg,50.0
+03 December 2025,Cabbage,Pettah (Retail),Rs./kg,0.0
+03 December 2025,Cabbage,Narahenpita (Retail),Rs./kg,0.0
+03 December 2025,Carrot,Pettah (Wholesale),Rs./kg,50.0
+03 December 2025,Carrot,Pettah (Retail),Rs./kg,0.0
+03 December 2025,Carrot,Narahenpita (Retail),Rs./kg,0.0
+03 December 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,90.0
+03 December 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,0.0
+03 December 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,20.0
+03 December 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+03 December 2025,Green Chilli,Pettah (Retail),Rs./kg,0.0
+03 December 2025,Green Chilli,Narahenpita (Retail),Rs./kg,200.0
+03 December 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,0.0
+03 December 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+03 December 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+03 December 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,50.0
+03 December 2025,Potato (Imp),Pettah (Retail),Rs./kg,50.0
+03 December 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+03 December 2025,Potato (Local),Pettah (Wholesale),Rs./kg,78.0
+03 December 2025,Potato (Local),Pettah (Retail),Rs./kg,20.0
+03 December 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+03 December 2025,Pumpkin,Pettah (Wholesale),Rs./kg,50.0
+03 December 2025,Pumpkin,Pettah (Retail),Rs./kg,0.0
+03 December 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+03 December 2025,Red Dhal,Pettah (Wholesale),Rs./kg,10.0
+03 December 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+03 December 2025,Red Dhal,Narahenpita (Retail),Rs./kg,66.0
+03 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,33.0
+03 December 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,65.0
+03 December 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,70.0
+03 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+03 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,43.0
+03 December 2025,Red Onion (Local),Pettah (Retail),Rs./kg,70.0
+03 December 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,98.0
+03 December 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,98.0
+03 December 2025,Snake gourd,Pettah (Wholesale),Rs./kg,0.0
+03 December 2025,Snake gourd,Pettah (Retail),Rs./kg,50.0
+03 December 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+03 December 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,8.0
+03 December 2025,Sprat (Imp),Pettah (Retail),Rs./kg,8.5
+03 December 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,0.0
+03 December 2025,Sugar (White),Pettah (Wholesale),Rs./kg,50.0
+03 December 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+03 December 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+03 December 2025,Tomato,Pettah (Wholesale),Rs./kg,50.0
+03 December 2025,Tomato,Pettah (Retail),Rs./kg,0.0
+03 December 2025,Tomato,Narahenpita (Retail),Rs./kg,80.0
+05 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+05 December 2025,Beans,Dambulla (Wholesale),Rs./kg,90.0
+05 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+05 December 2025,Beans,Dambulla (Retail),Rs./kg,20.0
+05 December 2025,Beans,Narahenpita (Retail),Rs./kg,0.0
+05 December 2025,Beans,Pettah (Wholesale),Rs./kg,50.0
+05 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+05 December 2025,Beans,Narahenpita (Retail),Rs./kg,80.0
+05 December 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,57.0
+05 December 2025,Big Onion (Imp),Pettah (Retail),Rs./kg,370.0
+05 December 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,60.0
+05 December 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,88.0
+05 December 2025,Big Onion (Local),Pettah (Retail),Rs./kg,30.0
+05 December 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,20.0
+05 December 2025,Brinjal,Pettah (Wholesale),Rs./kg,20.0
+05 December 2025,Brinjal,Pettah (Retail),Rs./kg,70.0
+05 December 2025,Brinjal,Narahenpita (Retail),Rs./kg,200.0
+05 December 2025,Cabbage,Pettah (Wholesale),Rs./kg,0.0
+05 December 2025,Cabbage,Pettah (Retail),Rs./kg,50.0
+05 December 2025,Cabbage,Narahenpita (Retail),Rs./kg,60.0
+05 December 2025,Carrot,Pettah (Wholesale),Rs./kg,0.0
+05 December 2025,Carrot,Pettah (Retail),Rs./kg,50.0
+05 December 2025,Carrot,Narahenpita (Retail),Rs./kg,0.0
+05 December 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,70.0
+05 December 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,0.0
+05 December 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,20.0
+05 December 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+05 December 2025,Green Chilli,Pettah (Retail),Rs./kg,0.0
+05 December 2025,Green Chilli,Narahenpita (Retail),Rs./kg,0.0
+05 December 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,0.0
+05 December 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+05 December 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+05 December 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,25.0
+05 December 2025,Potato (Imp),Pettah (Retail),Rs./kg,50.0
+05 December 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+05 December 2025,Potato (Local),Pettah (Wholesale),Rs./kg,80.0
+05 December 2025,Potato (Local),Pettah (Retail),Rs./kg,20.0
+05 December 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+05 December 2025,Pumpkin,Pettah (Wholesale),Rs./kg,0.0
+05 December 2025,Pumpkin,Pettah (Retail),Rs./kg,50.0
+05 December 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+05 December 2025,Red Dhal,Pettah (Wholesale),Rs./kg,15.0
+05 December 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+05 December 2025,Red Dhal,Narahenpita (Retail),Rs./kg,66.0
+05 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,17.0
+05 December 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,55.0
+05 December 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,60.0
+05 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+05 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,58.0
+05 December 2025,Red Onion (Local),Pettah (Retail),Rs./kg,0.0
+05 December 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,20.0
+05 December 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,80.0
+05 December 2025,Snake gourd,Pettah (Wholesale),Rs./kg,0.0
+05 December 2025,Snake gourd,Pettah (Retail),Rs./kg,0.0
+05 December 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+05 December 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,2.0
+05 December 2025,Sprat (Imp),Pettah (Retail),Rs./kg,2.5
+05 December 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,0.0
+05 December 2025,Sugar (White),Pettah (Wholesale),Rs./kg,55.0
+05 December 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+05 December 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+05 December 2025,Tomato,Pettah (Wholesale),Rs./kg,0.0
+05 December 2025,Tomato,Pettah (Retail),Rs./kg,50.0
+05 December 2025,Tomato,Narahenpita (Retail),Rs./kg,0.0
+08 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+08 December 2025,Beans,Dambulla (Wholesale),Rs./kg,25.0
+08 December 2025,Beans,Pettah (Retail),Rs./kg,100.0
+08 December 2025,Beans,Dambulla (Retail),Rs./kg,55.0
+08 December 2025,Beans,Narahenpita (Retail),Rs./kg,400.0
+08 December 2025,Beans,Pettah (Wholesale),Rs./kg,50.0
+08 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+08 December 2025,Beans,Narahenpita (Retail),Rs./kg,0.0
+08 December 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,57.0
+08 December 2025,Big Onion (Imp),Pettah (Retail),Rs./kg,0.0
+08 December 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,80.0
+08 December 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,95.0
+08 December 2025,Big Onion (Local),Pettah (Retail),Rs./kg,30.0
+08 December 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+08 December 2025,Brinjal,Pettah (Wholesale),Rs./kg,20.0
+08 December 2025,Brinjal,Pettah (Retail),Rs./kg,70.0
+08 December 2025,Brinjal,Narahenpita (Retail),Rs./kg,80.0
+08 December 2025,Cabbage,Pettah (Wholesale),Rs./kg,50.0
+08 December 2025,Cabbage,Pettah (Retail),Rs./kg,0.0
+08 December 2025,Cabbage,Narahenpita (Retail),Rs./kg,0.0
+08 December 2025,Carrot,Pettah (Wholesale),Rs./kg,0.0
+08 December 2025,Carrot,Pettah (Retail),Rs./kg,50.0
+08 December 2025,Carrot,Narahenpita (Retail),Rs./kg,20.0
+08 December 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,70.0
+08 December 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,0.0
+08 December 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,20.0
+08 December 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+08 December 2025,Green Chilli,Pettah (Retail),Rs./kg,0.0
+08 December 2025,Green Chilli,Narahenpita (Retail),Rs./kg,0.0
+08 December 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,0.0
+08 December 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+08 December 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+08 December 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,67.0
+08 December 2025,Potato (Imp),Pettah (Retail),Rs./kg,50.0
+08 December 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+08 December 2025,Potato (Local),Pettah (Wholesale),Rs./kg,81.0
+08 December 2025,Potato (Local),Pettah (Retail),Rs./kg,20.0
+08 December 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+08 December 2025,Pumpkin,Pettah (Wholesale),Rs./kg,0.0
+08 December 2025,Pumpkin,Pettah (Retail),Rs./kg,50.0
+08 December 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+08 December 2025,Red Dhal,Pettah (Wholesale),Rs./kg,10.0
+08 December 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+08 December 2025,Red Dhal,Narahenpita (Retail),Rs./kg,66.0
+08 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,87.0
+08 December 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,55.0
+08 December 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,60.0
+08 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,440.0
+08 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,58.0
+08 December 2025,Red Onion (Local),Pettah (Retail),Rs./kg,0.0
+08 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,480.0
+08 December 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,43.0
+08 December 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,80.0
+08 December 2025,Snake gourd,Pettah (Wholesale),Rs./kg,0.0
+08 December 2025,Snake gourd,Pettah (Retail),Rs./kg,0.0
+08 December 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+08 December 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,2.0
+08 December 2025,Sprat (Imp),Pettah (Retail),Rs./kg,2.5
+08 December 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,5.0
+08 December 2025,Sugar (White),Pettah (Wholesale),Rs./kg,50.0
+08 December 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+08 December 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+08 December 2025,Tomato,Pettah (Wholesale),Rs./kg,0.0
+08 December 2025,Tomato,Pettah (Retail),Rs./kg,50.0
+08 December 2025,Tomato,Narahenpita (Retail),Rs./kg,0.0
+09 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+09 December 2025,Beans,Dambulla (Wholesale),Rs./kg,40.0
+09 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+09 December 2025,Beans,Dambulla (Retail),Rs./kg,70.0
+09 December 2025,Beans,Narahenpita (Retail),Rs./kg,400.0
+09 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+09 December 2025,Beans,Pettah (Retail),Rs./kg,50.0
+09 December 2025,Beans,Narahenpita (Retail),Rs./kg,0.0
+09 December 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,56.0
+09 December 2025,Big Onion (Imp),Pettah (Retail),Rs./kg,0.0
+09 December 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,80.0
+09 December 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,94.0
+09 December 2025,Big Onion (Local),Pettah (Retail),Rs./kg,30.0
+09 December 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+09 December 2025,Brinjal,Pettah (Wholesale),Rs./kg,20.0
+09 December 2025,Brinjal,Pettah (Retail),Rs./kg,70.0
+09 December 2025,Brinjal,Narahenpita (Retail),Rs./kg,0.0
+09 December 2025,Cabbage,Pettah (Wholesale),Rs./kg,50.0
+09 December 2025,Cabbage,Pettah (Retail),Rs./kg,0.0
+09 December 2025,Cabbage,Narahenpita (Retail),Rs./kg,0.0
+09 December 2025,Carrot,Pettah (Wholesale),Rs./kg,0.0
+09 December 2025,Carrot,Pettah (Retail),Rs./kg,50.0
+09 December 2025,Carrot,Narahenpita (Retail),Rs./kg,40.0
+09 December 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,60.0
+09 December 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,0.0
+09 December 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,20.0
+09 December 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+09 December 2025,Green Chilli,Pettah (Retail),Rs./kg,0.0
+09 December 2025,Green Chilli,Narahenpita (Retail),Rs./kg,0.0
+09 December 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,0.0
+09 December 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+09 December 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+09 December 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,50.0
+09 December 2025,Potato (Imp),Pettah (Retail),Rs./kg,67.0
+09 December 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+09 December 2025,Potato (Local),Pettah (Wholesale),Rs./kg,75.0
+09 December 2025,Potato (Local),Pettah (Retail),Rs./kg,20.0
+09 December 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+09 December 2025,Pumpkin,Pettah (Wholesale),Rs./kg,50.0
+09 December 2025,Pumpkin,Pettah (Retail),Rs./kg,0.0
+09 December 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+09 December 2025,Red Dhal,Pettah (Wholesale),Rs./kg,20.0
+09 December 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+09 December 2025,Red Dhal,Narahenpita (Retail),Rs./kg,66.0
+09 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,0.0
+09 December 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,55.0
+09 December 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,60.0
+09 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,45.0
+09 December 2025,Red Onion (Local),Pettah (Retail),Rs./kg,0.0
+09 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,80.0
+09 December 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,43.0
+09 December 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,80.0
+09 December 2025,Snake gourd,Pettah (Wholesale),Rs./kg,50.0
+09 December 2025,Snake gourd,Pettah (Retail),Rs./kg,0.0
+09 December 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+09 December 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,3.0
+09 December 2025,Sprat (Imp),Pettah (Retail),Rs./kg,3.5
+09 December 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,5.0
+09 December 2025,Sugar (White),Pettah (Wholesale),Rs./kg,55.0
+09 December 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+09 December 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+09 December 2025,Tomato,Pettah (Wholesale),Rs./kg,0.0
+09 December 2025,Tomato,Pettah (Retail),Rs./kg,50.0
+09 December 2025,Tomato,Narahenpita (Retail),Rs./kg,0.0
+10 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+10 December 2025,Beans,Dambulla (Wholesale),Rs./kg,25.0
+10 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+10 December 2025,Beans,Dambulla (Retail),Rs./kg,55.0
+10 December 2025,Beans,Narahenpita (Retail),Rs./kg,400.0
+10 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+10 December 2025,Beans,Pettah (Retail),Rs./kg,50.0
+10 December 2025,Beans,Narahenpita (Retail),Rs./kg,0.0
+10 December 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,37.0
+10 December 2025,Big Onion (Imp),Pettah (Retail),Rs./kg,0.0
+10 December 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,80.0
+10 December 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,90.0
+10 December 2025,Big Onion (Local),Pettah (Retail),Rs./kg,30.0
+10 December 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+10 December 2025,Brinjal,Pettah (Wholesale),Rs./kg,20.0
+10 December 2025,Brinjal,Pettah (Retail),Rs./kg,70.0
+10 December 2025,Brinjal,Narahenpita (Retail),Rs./kg,60.0
+10 December 2025,Cabbage,Pettah (Wholesale),Rs./kg,50.0
+10 December 2025,Cabbage,Pettah (Retail),Rs./kg,0.0
+10 December 2025,Cabbage,Narahenpita (Retail),Rs./kg,0.0
+10 December 2025,Carrot,Pettah (Wholesale),Rs./kg,50.0
+10 December 2025,Carrot,Pettah (Retail),Rs./kg,0.0
+10 December 2025,Carrot,Narahenpita (Retail),Rs./kg,40.0
+10 December 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,60.0
+10 December 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,0.0
+10 December 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,30.0
+10 December 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+10 December 2025,Green Chilli,Pettah (Retail),Rs./kg,0.0
+10 December 2025,Green Chilli,Narahenpita (Retail),Rs./kg,0.0
+10 December 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,0.0
+10 December 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+10 December 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+10 December 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,50.0
+10 December 2025,Potato (Imp),Pettah (Retail),Rs./kg,67.0
+10 December 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+10 December 2025,Potato (Local),Pettah (Wholesale),Rs./kg,54.0
+10 December 2025,Potato (Local),Pettah (Retail),Rs./kg,20.0
+10 December 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+10 December 2025,Pumpkin,Pettah (Wholesale),Rs./kg,0.0
+10 December 2025,Pumpkin,Pettah (Retail),Rs./kg,50.0
+10 December 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+10 December 2025,Red Dhal,Pettah (Wholesale),Rs./kg,20.0
+10 December 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+10 December 2025,Red Dhal,Narahenpita (Retail),Rs./kg,66.0
+10 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,0.0
+10 December 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,45.0
+10 December 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,50.0
+10 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,38.0
+10 December 2025,Red Onion (Local),Pettah (Retail),Rs./kg,0.0
+10 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,80.0
+10 December 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,50.0
+10 December 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,80.0
+10 December 2025,Red Onion (lmp),Narahenpita (Retail),Rs./kg,280.0
+10 December 2025,Snake gourd,Pettah (Wholesale),Rs./kg,0.0
+10 December 2025,Snake gourd,Pettah (Retail),Rs./kg,50.0
+10 December 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+10 December 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,3.0
+10 December 2025,Sprat (Imp),Pettah (Retail),Rs./kg,3.5
+10 December 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,5.0
+10 December 2025,Sugar (White),Pettah (Wholesale),Rs./kg,55.0
+10 December 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+10 December 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+10 December 2025,Tomato,Pettah (Wholesale),Rs./kg,50.0
+10 December 2025,Tomato,Pettah (Retail),Rs./kg,0.0
+10 December 2025,Tomato,Narahenpita (Retail),Rs./kg,0.0
+11 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+11 December 2025,Beans,Dambulla (Wholesale),Rs./kg,65.0
+11 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+11 December 2025,Beans,Dambulla (Retail),Rs./kg,95.0
+11 December 2025,Beans,Narahenpita (Retail),Rs./kg,400.0
+11 December 2025,Beans,Pettah (Wholesale),Rs./kg,50.0
+11 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+11 December 2025,Beans,Narahenpita (Retail),Rs./kg,60.0
+11 December 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,17.0
+11 December 2025,Big Onion (Imp),Pettah (Retail),Rs./kg,0.0
+11 December 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,80.0
+11 December 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,84.0
+11 December 2025,Big Onion (Local),Pettah (Retail),Rs./kg,30.0
+11 December 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+11 December 2025,Brinjal,Pettah (Wholesale),Rs./kg,30.0
+11 December 2025,Brinjal,Pettah (Retail),Rs./kg,0.0
+11 December 2025,Brinjal,Narahenpita (Retail),Rs./kg,80.0
+11 December 2025,Cabbage,Pettah (Wholesale),Rs./kg,50.0
+11 December 2025,Cabbage,Pettah (Retail),Rs./kg,0.0
+11 December 2025,Cabbage,Narahenpita (Retail),Rs./kg,0.0
+11 December 2025,Carrot,Pettah (Wholesale),Rs./kg,50.0
+11 December 2025,Carrot,Pettah (Retail),Rs./kg,0.0
+11 December 2025,Carrot,Narahenpita (Retail),Rs./kg,0.0
+11 December 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,60.0
+11 December 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,0.0
+11 December 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,30.0
+11 December 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+11 December 2025,Green Chilli,Pettah (Retail),Rs./kg,0.0
+11 December 2025,Green Chilli,Narahenpita (Retail),Rs./kg,0.0
+11 December 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,0.0
+11 December 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+11 December 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+11 December 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,53.0
+11 December 2025,Potato (Imp),Pettah (Retail),Rs./kg,67.0
+11 December 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+11 December 2025,Potato (Local),Pettah (Wholesale),Rs./kg,52.0
+11 December 2025,Potato (Local),Pettah (Retail),Rs./kg,20.0
+11 December 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+11 December 2025,Pumpkin,Pettah (Wholesale),Rs./kg,0.0
+11 December 2025,Pumpkin,Pettah (Retail),Rs./kg,50.0
+11 December 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+11 December 2025,Red Dhal,Pettah (Wholesale),Rs./kg,20.0
+11 December 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+11 December 2025,Red Dhal,Narahenpita (Retail),Rs./kg,66.0
+11 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,45.0
+11 December 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,45.0
+11 December 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,50.0
+11 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,92.0
+11 December 2025,Red Onion (Local),Pettah (Retail),Rs./kg,0.0
+11 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,80.0
+11 December 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,30.0
+11 December 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,80.0
+11 December 2025,Red Onion (lmp),Narahenpita (Retail),Rs./kg,80.0
+11 December 2025,Snake gourd,Pettah (Wholesale),Rs./kg,0.0
+11 December 2025,Snake gourd,Pettah (Retail),Rs./kg,50.0
+11 December 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+11 December 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,3.0
+11 December 2025,Sprat (Imp),Pettah (Retail),Rs./kg,3.5
+11 December 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,5.0
+11 December 2025,Sugar (White),Pettah (Wholesale),Rs./kg,55.0
+11 December 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+11 December 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+11 December 2025,Tomato,Pettah (Wholesale),Rs./kg,0.0
+11 December 2025,Tomato,Pettah (Retail),Rs./kg,50.0
+11 December 2025,Tomato,Narahenpita (Retail),Rs./kg,0.0
+12 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+12 December 2025,Beans,Dambulla (Wholesale),Rs./kg,45.0
+12 December 2025,Beans,Pettah (Retail),Rs./kg,0.0
+12 December 2025,Beans,Dambulla (Retail),Rs./kg,75.0
+12 December 2025,Beans,Narahenpita (Retail),Rs./kg,200.0
+12 December 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+12 December 2025,Beans,Pettah (Retail),Rs./kg,50.0
+12 December 2025,Beans,Narahenpita (Retail),Rs./kg,60.0
+12 December 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,40.0
+12 December 2025,Big Onion (Imp),Pettah (Retail),Rs./kg,0.0
+12 December 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,80.0
+12 December 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,80.0
+12 December 2025,Big Onion (Local),Pettah (Retail),Rs./kg,30.0
+12 December 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+12 December 2025,Brinjal,Pettah (Wholesale),Rs./kg,30.0
+12 December 2025,Brinjal,Pettah (Retail),Rs./kg,0.0
+12 December 2025,Brinjal,Narahenpita (Retail),Rs./kg,60.0
+12 December 2025,Cabbage,Pettah (Wholesale),Rs./kg,50.0
+12 December 2025,Cabbage,Pettah (Retail),Rs./kg,0.0
+12 December 2025,Cabbage,Narahenpita (Retail),Rs./kg,0.0
+12 December 2025,Carrot,Pettah (Wholesale),Rs./kg,50.0
+12 December 2025,Carrot,Pettah (Retail),Rs./kg,0.0
+12 December 2025,Carrot,Narahenpita (Retail),Rs./kg,60.0
+12 December 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,60.0
+12 December 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,0.0
+12 December 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,30.0
+12 December 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+12 December 2025,Green Chilli,Pettah (Retail),Rs./kg,50.0
+12 December 2025,Green Chilli,Narahenpita (Retail),Rs./kg,0.0
+12 December 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,99.0
+12 December 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+12 December 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+12 December 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,25.0
+12 December 2025,Potato (Imp),Pettah (Retail),Rs./kg,50.0
+12 December 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+12 December 2025,Potato (Local),Pettah (Wholesale),Rs./kg,64.0
+12 December 2025,Potato (Local),Pettah (Retail),Rs./kg,20.0
+12 December 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+12 December 2025,Pumpkin,Pettah (Wholesale),Rs./kg,0.0
+12 December 2025,Pumpkin,Pettah (Retail),Rs./kg,50.0
+12 December 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+12 December 2025,Red Dhal,Pettah (Wholesale),Rs./kg,20.0
+12 December 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+12 December 2025,Red Dhal,Narahenpita (Retail),Rs./kg,89.0
+12 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,87.0
+12 December 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,45.0
+12 December 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,50.0
+12 December 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,38.0
+12 December 2025,Red Onion (Local),Pettah (Retail),Rs./kg,0.0
+12 December 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,80.0
+12 December 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,38.0
+12 December 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,80.0
+12 December 2025,Red Onion (lmp),Narahenpita (Retail),Rs./kg,80.0
+12 December 2025,Snake gourd,Pettah (Wholesale),Rs./kg,0.0
+12 December 2025,Snake gourd,Pettah (Retail),Rs./kg,50.0
+12 December 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+12 December 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,3.0
+12 December 2025,Sprat (Imp),Pettah (Retail),Rs./kg,3.5
+12 December 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,5.0
+12 December 2025,Sugar (White),Pettah (Wholesale),Rs./kg,55.0
+12 December 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+12 December 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+12 December 2025,Tomato,Pettah (Wholesale),Rs./kg,0.0
+12 December 2025,Tomato,Pettah (Retail),Rs./kg,50.0
+12 December 2025,Tomato,Narahenpita (Retail),Rs./kg,0.0
+26 November 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+26 November 2025,Beans,Dambulla (Wholesale),Rs./kg,45.0
+26 November 2025,Beans,Pettah (Retail),Rs./kg,50.0
+26 November 2025,Beans,Dambulla (Retail),Rs./kg,75.0
+26 November 2025,Beans,Narahenpita (Retail),Rs./kg,0.0
+26 November 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+26 November 2025,Beans,Pettah (Retail),Rs./kg,50.0
+26 November 2025,Beans,Narahenpita (Retail),Rs./kg,80.0
+26 November 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,68.0
+26 November 2025,Big Onion (Imp),Pettah (Retail),Rs./kg,0.0
+26 November 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,60.0
+26 November 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,31.0
+26 November 2025,Big Onion (Local),Pettah (Retail),Rs./kg,80.0
+26 November 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,80.0
+26 November 2025,Brinjal,Pettah (Wholesale),Rs./kg,0.0
+26 November 2025,Brinjal,Pettah (Retail),Rs./kg,0.0
+26 November 2025,Brinjal,Narahenpita (Retail),Rs./kg,20.0
+26 November 2025,Cabbage,Pettah (Wholesale),Rs./kg,50.0
+26 November 2025,Cabbage,Pettah (Retail),Rs./kg,0.0
+26 November 2025,Cabbage,Narahenpita (Retail),Rs./kg,40.0
+26 November 2025,Carrot,Pettah (Wholesale),Rs./kg,0.0
+26 November 2025,Carrot,Pettah (Retail),Rs./kg,50.0
+26 November 2025,Carrot,Narahenpita (Retail),Rs./kg,40.0
+26 November 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,55.0
+26 November 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,85.0
+26 November 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,20.0
+26 November 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+26 November 2025,Green Chilli,Pettah (Retail),Rs./kg,0.0
+26 November 2025,Green Chilli,Narahenpita (Retail),Rs./kg,200.0
+26 November 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,99.0
+26 November 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+26 November 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+26 November 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,50.0
+26 November 2025,Potato (Imp),Pettah (Retail),Rs./kg,75.0
+26 November 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+26 November 2025,Potato (Local),Pettah (Wholesale),Rs./kg,55.0
+26 November 2025,Potato (Local),Pettah (Retail),Rs./kg,0.0
+26 November 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+26 November 2025,Pumpkin,Pettah (Wholesale),Rs./kg,0.0
+26 November 2025,Pumpkin,Pettah (Retail),Rs./kg,50.0
+26 November 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+26 November 2025,Red Dhal,Pettah (Wholesale),Rs./kg,10.0
+26 November 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+26 November 2025,Red Dhal,Narahenpita (Retail),Rs./kg,43.0
+26 November 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,0.0
+26 November 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,33.0
+26 November 2025,Red Onion (Local),Pettah (Retail),Rs./kg,50.0
+26 November 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,38.0
+26 November 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,78.0
+26 November 2025,Red Onion (Local),Pettah (Retail),Rs./kg,30.0
+26 November 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+26 November 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,48.0
+26 November 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,80.0
+26 November 2025,Snake gourd,Pettah (Wholesale),Rs./kg,0.0
+26 November 2025,Snake gourd,Pettah (Retail),Rs./kg,50.0
+26 November 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+26 November 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,0.0
+26 November 2025,Sprat (Imp),Pettah (Retail),Rs./kg,0.5
+26 November 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,3.0
+26 November 2025,Sugar (White),Pettah (Wholesale),Rs./kg,40.0
+26 November 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+26 November 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+26 November 2025,Tomato,Pettah (Wholesale),Rs./kg,50.0
+26 November 2025,Tomato,Pettah (Retail),Rs./kg,0.0
+26 November 2025,Tomato,Narahenpita (Retail),Rs./kg,80.0
+27 November 2025,Beans,Pettah (Wholesale),Rs./kg,0.0
+27 November 2025,Beans,Dambulla (Wholesale),Rs./kg,50.0
+27 November 2025,Beans,Pettah (Retail),Rs./kg,50.0
+27 November 2025,Beans,Dambulla (Retail),Rs./kg,80.0
+27 November 2025,Beans,Narahenpita (Retail),Rs./kg,0.0
+27 November 2025,Beans,Pettah (Wholesale),Rs./kg,80.0
+27 November 2025,Beans,Pettah (Retail),Rs./kg,30.0
+27 November 2025,Beans,Narahenpita (Retail),Rs./kg,80.0
+27 November 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,78.0
+27 November 2025,Big Onion (Imp),Pettah (Retail),Rs./kg,30.0
+27 November 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,60.0
+27 November 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,29.0
+27 November 2025,Big Onion (Local),Pettah (Retail),Rs./kg,80.0
+27 November 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,80.0
+27 November 2025,Brinjal,Pettah (Wholesale),Rs./kg,0.0
+27 November 2025,Brinjal,Pettah (Retail),Rs./kg,0.0
+27 November 2025,Brinjal,Narahenpita (Retail),Rs./kg,20.0
+27 November 2025,Cabbage,Pettah (Wholesale),Rs./kg,0.0
+27 November 2025,Cabbage,Pettah (Retail),Rs./kg,50.0
+27 November 2025,Cabbage,Narahenpita (Retail),Rs./kg,40.0
+27 November 2025,Carrot,Pettah (Wholesale),Rs./kg,40.0
+27 November 2025,Carrot,Pettah (Retail),Rs./kg,80.0
+27 November 2025,Carrot,Narahenpita (Retail),Rs./kg,40.0
+27 November 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,50.0
+27 November 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,85.0
+27 November 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,20.0
+27 November 2025,Green Chilli,Pettah (Wholesale),Rs./kg,0.0
+27 November 2025,Green Chilli,Pettah (Retail),Rs./kg,0.0
+27 November 2025,Green Chilli,Narahenpita (Retail),Rs./kg,200.0
+27 November 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,99.0
+27 November 2025,Katta (Imp),Pettah (Retail),Rs./kg,15.0
+27 November 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,25.0
+27 November 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,50.0
+27 November 2025,Potato (Imp),Pettah (Retail),Rs./kg,75.0
+27 November 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,60.0
+27 November 2025,Potato (Local),Pettah (Wholesale),Rs./kg,54.0
+27 November 2025,Potato (Local),Pettah (Retail),Rs./kg,0.0
+27 November 2025,Potato (Local),Narahenpita (Retail),Rs./kg,20.0
+27 November 2025,Pumpkin,Pettah (Wholesale),Rs./kg,50.0
+27 November 2025,Pumpkin,Pettah (Retail),Rs./kg,0.0
+27 November 2025,Pumpkin,Narahenpita (Retail),Rs./kg,0.0
+27 November 2025,Red Dhal,Pettah (Wholesale),Rs./kg,10.0
+27 November 2025,Red Dhal,Pettah (Retail),Rs./kg,67.0
+27 November 2025,Red Dhal,Narahenpita (Retail),Rs./kg,66.0
+27 November 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,0.0
+27 November 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,63.0
+27 November 2025,Red Onion (Local),Pettah (Retail),Rs./kg,50.0
+27 November 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,68.0
+27 November 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,78.0
+27 November 2025,Red Onion (Local),Pettah (Retail),Rs./kg,30.0
+27 November 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,40.0
+27 November 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,48.0
+27 November 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,80.0
+27 November 2025,Snake gourd,Pettah (Wholesale),Rs./kg,0.0
+27 November 2025,Snake gourd,Pettah (Retail),Rs./kg,50.0
+27 November 2025,Snake gourd,Narahenpita (Retail),Rs./kg,0.0
+27 November 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,0.0
+27 November 2025,Sprat (Imp),Pettah (Retail),Rs./kg,0.5
+27 November 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,3.0
+27 November 2025,Sugar (White),Pettah (Wholesale),Rs./kg,40.0
+27 November 2025,Sugar (White),Pettah (Retail),Rs./kg,70.0
+27 November 2025,Sugar (White),Narahenpita (Retail),Rs./kg,60.0
+27 November 2025,Tomato,Pettah (Wholesale),Rs./kg,50.0
+27 November 2025,Tomato,Pettah (Retail),Rs./kg,0.0
+27 November 2025,Tomato,Narahenpita (Retail),Rs./kg,80.0
+28 November 2025,Beans,Pettah (Wholesale),Rs./kg,600.0
+28 November 2025,Beans,Dambulla (Wholesale),Rs./kg,450.0
+28 November 2025,Beans,Pettah (Retail),Rs./kg,650.0
+28 November 2025,Beans,Dambulla (Retail),Rs./kg,480.0
+28 November 2025,Beans,Narahenpita (Retail),Rs./kg,700.0
+28 November 2025,Beans,Pettah (Wholesale),Rs./kg,280.0
+28 November 2025,Beans,Pettah (Retail),Rs./kg,330.0
+28 November 2025,Beans,Narahenpita (Retail),Rs./kg,280.0
+28 November 2025,Big Onion (Imp),Pettah (Wholesale),Rs./kg,278.0
+28 November 2025,Big Onion (Imp),Pettah (Retail),Rs./kg,330.0
+28 November 2025,Big Onion (Imp),Narahenpita (Retail),Rs./kg,360.0
+28 November 2025,Big Onion (Local),Pettah (Wholesale),Rs./kg,20.0
+28 November 2025,Big Onion (Local),Pettah (Retail),Rs./kg,180.0
+28 November 2025,Big Onion (Local),Narahenpita (Retail),Rs./kg,180.0
+28 November 2025,Brinjal,Pettah (Wholesale),Rs./kg,60.0
+28 November 2025,Brinjal,Pettah (Retail),Rs./kg,100.0
+28 November 2025,Brinjal,Narahenpita (Retail),Rs./kg,120.0
+28 November 2025,Cabbage,Pettah (Wholesale),Rs./kg,200.0
+28 November 2025,Cabbage,Pettah (Retail),Rs./kg,250.0
+28 November 2025,Cabbage,Narahenpita (Retail),Rs./kg,240.0
+28 November 2025,Carrot,Pettah (Wholesale),Rs./kg,140.0
+28 November 2025,Carrot,Pettah (Retail),Rs./kg,180.0
+28 November 2025,Carrot,Narahenpita (Retail),Rs./kg,240.0
+28 November 2025,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,150.0
+28 November 2025,Dried Chilli (Imp),Pettah (Retail),Rs./kg,185.0
+28 November 2025,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,220.0
+28 November 2025,Green Chilli,Pettah (Wholesale),Rs./kg,800.0
+28 November 2025,Green Chilli,Pettah (Retail),Rs./kg,1000.0
+28 November 2025,Green Chilli,Narahenpita (Retail),Rs./kg,1200.0
+28 November 2025,Katta (Imp),Pettah (Wholesale),Rs./kg,199.0
+28 November 2025,Katta (Imp),Pettah (Retail),Rs./kg,215.0
+28 November 2025,Katta (Imp),Narahenpita (Retail),Rs./kg,225.0
+28 November 2025,Potato (Imp),Pettah (Wholesale),Rs./kg,750.0
+28 November 2025,Potato (Imp),Pettah (Retail),Rs./kg,775.0
+28 November 2025,Potato (Imp),Narahenpita (Retail),Rs./kg,960.0
+28 November 2025,Potato (Local),Pettah (Wholesale),Rs./kg,50.0
+28 November 2025,Potato (Local),Pettah (Retail),Rs./kg,200.0
+28 November 2025,Potato (Local),Narahenpita (Retail),Rs./kg,220.0
+28 November 2025,Pumpkin,Pettah (Wholesale),Rs./kg,350.0
+28 November 2025,Pumpkin,Pettah (Retail),Rs./kg,400.0
+28 November 2025,Pumpkin,Narahenpita (Retail),Rs./kg,400.0
+28 November 2025,Red Dhal,Pettah (Wholesale),Rs./kg,20.0
+28 November 2025,Red Dhal,Pettah (Retail),Rs./kg,867.0
+28 November 2025,Red Dhal,Narahenpita (Retail),Rs./kg,866.0
+28 November 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,300.0
+28 November 2025,Red Onion (Local),Dambulla (Wholesale),Rs./kg,163.0
+28 November 2025,Red Onion (Local),Pettah (Retail),Rs./kg,350.0
+28 November 2025,Red Onion (Local),Dambulla (Retail),Rs./kg,168.0
+28 November 2025,Red Onion (Local),Pettah (Wholesale),Rs./kg,80.0
+28 November 2025,Red Onion (Local),Pettah (Retail),Rs./kg,330.0
+28 November 2025,Red Onion (Local),Narahenpita (Retail),Rs./kg,440.0
+28 November 2025,Red Onion (lmp),Pettah (Wholesale),Rs./kg,148.0
+28 November 2025,Red Onion (lmp),Pettah (Retail),Rs./kg,180.0
+28 November 2025,Snake gourd,Pettah (Wholesale),Rs./kg,500.0
+28 November 2025,Snake gourd,Pettah (Retail),Rs./kg,550.0
+28 November 2025,Snake gourd,Narahenpita (Retail),Rs./kg,500.0
+28 November 2025,Sprat (Imp),Pettah (Wholesale),Rs./kg,30.0
+28 November 2025,Sprat (Imp),Pettah (Retail),Rs./kg,30.5
+28 November 2025,Sprat (Imp),Narahenpita (Retail),Rs./kg,33.0
+28 November 2025,Sugar (White),Pettah (Wholesale),Rs./kg,240.0
+28 November 2025,Sugar (White),Pettah (Retail),Rs./kg,270.0
+28 November 2025,Sugar (White),Narahenpita (Retail),Rs./kg,260.0
+28 November 2025,Tomato,Pettah (Wholesale),Rs./kg,250.0
+28 November 2025,Tomato,Pettah (Retail),Rs./kg,300.0
+28 November 2025,Tomato,Narahenpita (Retail),Rs./kg,480.0
