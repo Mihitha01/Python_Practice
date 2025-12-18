@@ -201,12 +201,24 @@ def extract_section_data(table, start_idx, end_idx, product_names, section_name,
         if not has_price:
             continue
         
-        # Get product name
+        # Only process the first 5 columns (actual markets), not multiline cells
+        # Get product name - only advance if this is a single-line data row
         if product_idx < len(product_names):
             product_name = product_names[product_idx]
-            product_idx += 1
+            
+            # Check if this row has multiline prices (prices on multiple rows for same product)
+            has_multiline = False
+            for col_idx in [2, 4, 6, 8, 10]:
+                if col_idx < len(row) and row[col_idx] and '\n' in str(row[col_idx]):
+                    has_multiline = True
+                    break
+            
+            # Only increment product_idx if we don't have multiline (single product row)
+            if not has_multiline:
+                product_idx += 1
         else:
-            product_name = f"Item {product_idx + 1}"
+            # Skip rows beyond the number of products
+            continue
         
         # Extract TODAY prices from each market
         for market_name, col_idx in MARKET_COLUMNS.items():
@@ -215,7 +227,6 @@ def extract_section_data(table, start_idx, end_idx, product_names, section_name,
                 if today_price is not None:
                     section_data.append({
                         'Date': report_date,
-                        'Section': section_name,
                         'Product': product_name,
                         'Market': market_name,
                         'Unit': 'Rs./kg',
@@ -255,8 +266,8 @@ def main():
     if all_data:
         df = pd.DataFrame(all_data)
         
-        # Sort by date, section, and product
-        df = df.sort_values(['Date', 'Section', 'Product']).reset_index(drop=True)
+        # Sort by date and product
+        df = df.sort_values(['Date', 'Product']).reset_index(drop=True)
         
         df.to_csv(OUTPUT_FILE, index=False)
         
@@ -265,12 +276,8 @@ def main():
         print("=" * 60)
         print(f"Total records extracted: {len(df)}")
         print(f"Date range: {df['Date'].min()} to {df['Date'].max()}")
-        print(f"Sections: {', '.join(df['Section'].unique())}")
         print(f"Markets: {', '.join(df['Market'].unique())}")
         print(f"Output file: {OUTPUT_FILE}")
-        
-        print(f"\nRecords by Section:")
-        print(df.groupby('Section').size())
         
         print(f"\nFirst 30 records:")
         print(df.head(30).to_string(index=False))
