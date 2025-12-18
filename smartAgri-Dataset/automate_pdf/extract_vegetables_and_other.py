@@ -18,16 +18,18 @@ from datetime import datetime
 PDF_FOLDER = '../price_pdfs_2025_01'
 OUTPUT_FILE = './extracted_prices.csv'
 
-# Market columns for TODAY prices
-# Due to merged header cells, prices are at indices 2, 4, 6, 8, 10
-# Each contains "YYYY YYYY" format (Yesterday Today)
-MARKET_INFO = [
-    ('Pettah (Wholesale)', 2),
-    ('Dambulla (Wholesale)', 4),
-    ('Pettah (Retail)', 6),
-    ('Dambulla (Retail)', 8),
-    ('Narahenpita (Retail)', 10)
-]
+# TODAY price columns (Yesterday/Today pairs in single cell)
+# Col 0=Item, Col 1=Unit
+# Col 2: Pettah WS (format: "yesterday today"), Col 4: Dambulla WS, 
+# Col 6: Pettah Retail, Col 8: Dambulla Retail, Col 10: Narahenpita Retail
+
+MARKET_COLUMNS = {
+    'Pettah (Wholesale)': 2,
+    'Dambulla (Wholesale)': 4,
+    'Pettah (Retail)': 6,
+    'Dambulla (Retail)': 8,
+    'Narahenpita (Retail)': 10
+}
 
 
 def extract_date_from_pdf(pdf):
@@ -47,10 +49,10 @@ def extract_date_from_pdf(pdf):
     return None
 
 
-def parse_price_pair(price_str):
+def parse_price(price_str):
     """
-    Parse a price pair string like "800.00 800.00" or "8 00.00 8 00.00"
-    Returns the TODAY price (second/last price)
+    Parse a price string in format "yesterday today" like "800.00 800.00" or "8 00.00 8 00.00"
+    Returns only the TODAY price (second/last price)
     """
     if not price_str or price_str.strip() == '' or price_str.strip() == 'n.a.':
         return None
@@ -58,10 +60,9 @@ def parse_price_pair(price_str):
     # Remove extra spaces within numbers (e.g., "8 00.00" -> "800.00")
     normalized = re.sub(r'(\d)\s+(\d)', r'\1\2', price_str.strip())
     
-    # Split by spaces to get price components
+    # Split by spaces to extract prices
     parts = normalized.split()
     
-    # Extract prices
     prices = []
     for part in parts:
         try:
@@ -71,30 +72,10 @@ def parse_price_pair(price_str):
         except ValueError:
             continue
     
-    # Return the last (today) price
+    # Return the last (TODAY) price
     if prices:
         return prices[-1]
     return None
-
-
-def extract_multiline_prices(price_str):
-    """
-    Parse multiline price data like:
-    '950.00 875.00\\n145.00 240.00\\n125.00 175.00'
-    Returns list of today prices only (second price in each pair)
-    """
-    if not price_str or price_str.strip() == '' or price_str.strip() == 'n.a.':
-        return []
-    
-    results = []
-    lines = price_str.strip().split('\n')
-    
-    for line in lines:
-        today_price = parse_price_pair(line)
-        if today_price is not None:
-            results.append(today_price)
-    
-    return results
 
 
 def process_pdf(filepath):
@@ -124,36 +105,30 @@ def process_pdf(filepath):
             
             for i, row in enumerate(table):
                 if row and row[0]:
-                    cell_text = str(row[0]).upper()
-                    # Remove spaces to match text like "V E G E T A B L E S"
-                    cell_clean = cell_text.replace(' ', '')
-                    
-                    if 'VEGETABLES' in cell_clean:
+                    cell_text = str(row[0]).upper().replace(' ', '')
+                    if 'VEGETABLES' in cell_text and 'vegetables' not in section_positions:
                         section_positions['vegetables'] = i
-                    elif 'OTHER' in cell_clean:
+                    elif 'OTHER' in cell_text and 'other' not in section_positions:
                         section_positions['other'] = i
-                    elif 'FRUITS' in cell_clean:
-                        section_positions['fruit'] = i
-                    elif 'RICE' in cell_clean:
+                    elif 'FRUITS' in cell_text and 'fruits' not in section_positions:
+                        section_positions['fruits'] = i
+                    elif 'RICE' in cell_text and 'rice' not in section_positions:
                         section_positions['rice'] = i
-                    elif 'FISH' in cell_clean:
-                        section_positions['fish'] = i
             
-            # Extract vegetable section
-            veg_start = section_positions.get('vegetables')
-            veg_end = section_positions.get('other', section_positions.get('fruit', len(table)))
-            
-            if veg_start is not None:
+            # Extract VEGETABLES section
+            if 'vegetables' in section_positions and 'other' in section_positions:
+                veg_start = section_positions['vegetables']
+                veg_end = section_positions['other']
                 all_data.extend(
                     extract_section(table, veg_start + 1, veg_end, 
                                   'Vegetables', report_date, filename)
                 )
             
             # Extract OTHER section
-            other_start = section_positions.get('other')
-            other_end = section_positions.get('fruit', len(table))
-            
-            if other_start is not None:
+            if 'other' in section_positions:
+                other_start = section_positions['other']
+                # Find the end of OTHER section (next section or end of table)
+                other_end = section_positions.get('fruits', len(table))
                 all_data.extend(
                     extract_section(table, other_start + 1, other_end, 
                                   'Other', report_date, filename)
@@ -168,59 +143,39 @@ def process_pdf(filepath):
 def extract_section(table, start_idx, end_idx, section_name, report_date, filename):
     """Extract price data from a specific section of the table"""
     section_data = []
-    item_counter = 1
     
     for row_idx in range(start_idx, end_idx):
         row = table[row_idx]
         
-        # Skip rows where the first column indicates another section
-        if row[0] and str(row[0]).strip():
-            cell_text = str(row[0]).upper().replace(' ', '')
-            if any(kw in cell_text for kw in ['VEGETABLES', 'OTHER', 'FRUITS', 'RICE', 'FISH', 'MEAT']):
-                break
-        
-        # Check if this row has any price data
-        has_prices = False
-        for market_name, col_idx in MARKET_INFO:
-            if col_idx < len(row) and row[col_idx]:
-                has_prices = True
-                break
-        
-        if not has_prices:
+        # Skip if row is too short
+        if not row or len(row) < 12:
             continue
         
-        # Extract prices from market columns
-        for market_name, col_idx in MARKET_INFO:
-            if col_idx < len(row) and row[col_idx]:
-                price_str = str(row[col_idx]).strip()
-                
-                # Handle multiline prices
-                if '\n' in price_str:
-                    prices = extract_multiline_prices(price_str)
-                    for idx, today_price in enumerate(prices):
-                        if today_price is not None:
-                            product_name = f"Item {item_counter}" if idx == 0 else f"Item {item_counter} ({idx})"
-                            section_data.append({
-                                'Date': report_date,
-                                'Section': section_name,
-                                'Product': product_name,
-                                'Market': market_name,
-                                'Price Today': today_price,
-                                'Source File': filename
-                            })
-                else:
-                    today_price = parse_price_pair(price_str)
-                    if today_price is not None:
-                        section_data.append({
-                            'Date': report_date,
-                            'Section': section_name,
-                            'Product': f"Item {item_counter}",
-                            'Market': market_name,
-                            'Price Today': today_price,
-                            'Source File': filename
-                        })
+        # Check if this row has a food name in Col 0
+        food_name = row[0]
+        if not food_name or not str(food_name).strip():
+            continue
         
-        item_counter += 1
+        food_name = str(food_name).strip()
+        
+        # Skip section headers
+        if any(kw in food_name.upper().replace(' ', '') for kw in ['VEGETABLES', 'OTHER', 'FRUITS', 'RICE', 'FISH', 'MEAT']):
+            break
+        
+        # Extract TODAY prices from each market column
+        for market_name, col_idx in MARKET_COLUMNS.items():
+            if col_idx < len(row) and row[col_idx]:
+                price = parse_price(str(row[col_idx]))
+                if price is not None:
+                    section_data.append({
+                        'Date': report_date,
+                        'Section': section_name,
+                        'Product': food_name,
+                        'Market': market_name,
+                        'Unit': 'Rs./kg',
+                        'Price Today': price,
+                        'Source File': filename
+                    })
     
     return section_data
 
