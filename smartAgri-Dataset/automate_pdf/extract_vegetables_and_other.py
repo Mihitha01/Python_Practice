@@ -13,7 +13,7 @@ import glob
 # ==========================================
 # CONFIGURATION
 # ==========================================
-PDF_FOLDER = '../price_pdfs_2025_01'
+PDF_FOLDER = 'price_pdfs_2025_01'
 OUTPUT_FILE = 'extracted_prices.csv'
 
 # TODAY price columns (cols contain "yesterday today" format)
@@ -52,19 +52,23 @@ def parse_today_price(price_str):
     if not price_str or price_str.strip() == '' or price_str.strip() == 'n.a.':
         return None
     
-    # Remove extra spaces within numbers (e.g., "8 00.00" -> "800.00")
-    normalized = re.sub(r'(\d)\s+(\d)', r'\1\2', price_str.strip())
+    # Remove extra spaces within numbers:
+    # - "8 00.00" -> "800.00"
+    # - "1 ,200.00" -> "1,200.00"
+    normalized = re.sub(r'(\d)\s+([,\d])', r'\1\2', price_str.strip())
     
-    # Split by spaces to extract prices
-    parts = normalized.split()
+    # Split by spaces and "n.a." to extract prices
+    # e.g., "n.a. 1,200.00" or "n.a. 1,200.00 n.a. 1,500.00" 
+    parts = re.split(r'[\s]+', normalized)
     
     prices = []
     for part in parts:
-        try:
-            price = float(part.replace(',', ''))
-            prices.append(price)
-        except ValueError:
-            continue
+        if part and part != 'n.a.' and part != '.':
+            try:
+                price = float(part.replace(',', ''))
+                prices.append(price)
+            except ValueError:
+                continue
     
     # Return the last (TODAY) price
     if prices:
@@ -230,8 +234,7 @@ def extract_section_data(table, start_idx, end_idx, product_names, section_name,
                         'Product': product_name,
                         'Market': market_name,
                         'Unit': 'Rs./kg',
-                        'Price Today': today_price,
-                        'Source File': filename
+                        'Price Today': today_price
                     })
     
     return section_data
