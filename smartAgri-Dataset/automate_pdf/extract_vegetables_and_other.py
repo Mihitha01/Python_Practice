@@ -1,8 +1,7 @@
 """
 Automated PDF Price Extraction Script
 Extracts vegetable and other food prices from PDF reports
-Focuses on: Vegetable section and Other section  
-Columns: Today prices only (ignoring Yesterday)
+Uses text parsing to get product names and table extraction for prices
 """
 
 import pdfplumber
@@ -10,7 +9,6 @@ import pandas as pd
 import re
 import os
 import glob
-from datetime import datetime
 
 # ==========================================
 # CONFIGURATION
@@ -18,10 +16,8 @@ from datetime import datetime
 PDF_FOLDER = '../price_pdfs_2025_01'
 OUTPUT_FILE = './extracted_prices.csv'
 
-# TODAY price columns (Yesterday/Today pairs in single cell)
-# Col 0=Item, Col 1=Unit
-# Col 2: Pettah WS (format: "yesterday today"), Col 4: Dambulla WS, 
-# Col 6: Pettah Retail, Col 8: Dambulla Retail, Col 10: Narahenpita Retail
+# TODAY price columns (cols contain "yesterday today" format)
+# Col 2: Pettah WS, Col 4: Dambulla WS, Col 6: Pettah Retail, Col 8: Dambulla Retail, Col 10: Narahenpita Retail
 
 MARKET_COLUMNS = {
     'Pettah (Wholesale)': 2,
@@ -36,7 +32,6 @@ def extract_date_from_pdf(pdf):
     """Extract date from PDF text (usually on first page)"""
     try:
         text = pdf.pages[0].extract_text()
-        # Pattern: Day Month Year (e.g., 12 December 2025)
         match = re.search(
             r'(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})',
             text,
@@ -49,10 +44,10 @@ def extract_date_from_pdf(pdf):
     return None
 
 
-def parse_price(price_str):
+def parse_today_price(price_str):
     """
-    Parse a price string in format "yesterday today" like "800.00 800.00" or "8 00.00 8 00.00"
-    Returns only the TODAY price (second/last price)
+    Extract TODAY price from "yesterday today" format like "800.00 800.00"
+    Returns only the TODAY price (second price)
     """
     if not price_str or price_str.strip() == '' or price_str.strip() == 'n.a.':
         return None
@@ -66,7 +61,6 @@ def parse_price(price_str):
     prices = []
     for part in parts:
         try:
-            # Handle patterns like "1,400.00" or "400.00"
             price = float(part.replace(',', ''))
             prices.append(price)
         except ValueError:
@@ -76,6 +70,50 @@ def parse_price(price_str):
     if prices:
         return prices[-1]
     return None
+
+
+def extract_product_names_from_text(page_text, section_name):
+    """
+    Extract product names from page text for a specific section
+    Returns list of product names in order
+    """
+    products = []
+    
+    # Find the section
+    if section_name == 'Vegetables':
+        section_marker = 'V E G E T A B L E S'
+        next_section_marker = 'O T H E R'
+    else:  # Other
+        section_marker = 'O T H E R'
+        next_section_marker = 'F R U I T S'
+    
+    # Find section start and end in text
+    try:
+        start_idx = page_text.find(section_marker)
+        if start_idx == -1:
+            return products
+        
+        # Find next section
+        end_idx = page_text.find(next_section_marker, start_idx)
+        if end_idx == -1:
+            end_idx = len(page_text)
+        
+        section_text = page_text[start_idx:end_idx]
+        
+        # Split by lines and extract product names
+        lines = section_text.split('\n')
+        for line in lines:
+            # Product lines have pattern: "ProductName Rs./kg price price price ..."
+            # Skip header and section marker lines
+            if 'Rs./kg' in line and section_marker not in line and next_section_marker not in line:
+                # Extract product name (everything before "Rs./kg")
+                product = line.split('Rs./kg')[0].strip()
+                if product and len(product) > 1:
+                    products.append(product)
+    except:
+        pass
+    
+    return products
 
 
 def process_pdf(filepath):
@@ -88,11 +126,12 @@ def process_pdf(filepath):
             # Extract date from PDF
             report_date = extract_date_from_pdf(pdf)
             
-            # Tables are on page 2 (index 1)
+            # Get page 2 text and table
             if len(pdf.pages) < 2:
                 return all_data
             
             page = pdf.pages[1]
+            page_text = page.extract_text()
             tables = page.extract_tables()
             
             if not tables:
@@ -100,38 +139,38 @@ def process_pdf(filepath):
             
             table = tables[0]
             
-            # Find section boundaries
-            section_positions = {}
+            # Extract product names for each section
+            vegetables = extract_product_names_from_text(page_text, 'Vegetables')
+            others = extract_product_names_from_text(page_text, 'Other')
             
+            # Find section rows in table
+            section_rows = {}
             for i, row in enumerate(table):
                 if row and row[0]:
                     cell_text = str(row[0]).upper().replace(' ', '')
-                    if 'VEGETABLES' in cell_text and 'vegetables' not in section_positions:
-                        section_positions['vegetables'] = i
-                    elif 'OTHER' in cell_text and 'other' not in section_positions:
-                        section_positions['other'] = i
-                    elif 'FRUITS' in cell_text and 'fruits' not in section_positions:
-                        section_positions['fruits'] = i
-                    elif 'RICE' in cell_text and 'rice' not in section_positions:
-                        section_positions['rice'] = i
+                    if 'VEGETABLES' in cell_text:
+                        section_rows['vegetables'] = i
+                    elif 'OTHER' in cell_text:
+                        section_rows['other'] = i
+                    elif 'FRUITS' in cell_text:
+                        section_rows['fruits'] = i
             
             # Extract VEGETABLES section
-            if 'vegetables' in section_positions and 'other' in section_positions:
-                veg_start = section_positions['vegetables']
-                veg_end = section_positions['other']
+            if 'vegetables' in section_rows and 'other' in section_rows:
+                veg_start = section_rows['vegetables'] + 1
+                veg_end = section_rows['other']
                 all_data.extend(
-                    extract_section(table, veg_start + 1, veg_end, 
-                                  'Vegetables', report_date, filename)
+                    extract_section_data(table, veg_start, veg_end, vegetables,
+                                       'Vegetables', report_date, filename)
                 )
             
             # Extract OTHER section
-            if 'other' in section_positions:
-                other_start = section_positions['other']
-                # Find the end of OTHER section (next section or end of table)
-                other_end = section_positions.get('fruits', len(table))
+            if 'other' in section_rows:
+                other_start = section_rows['other'] + 1
+                other_end = section_rows.get('fruits', len(table))
                 all_data.extend(
-                    extract_section(table, other_start + 1, other_end, 
-                                  'Other', report_date, filename)
+                    extract_section_data(table, other_start, other_end, others,
+                                       'Other', report_date, filename)
                 )
     
     except Exception as e:
@@ -140,40 +179,47 @@ def process_pdf(filepath):
     return all_data
 
 
-def extract_section(table, start_idx, end_idx, section_name, report_date, filename):
-    """Extract price data from a specific section of the table"""
+def extract_section_data(table, start_idx, end_idx, product_names, section_name, report_date, filename):
+    """Extract price data for a section"""
     section_data = []
+    product_idx = 0
     
     for row_idx in range(start_idx, end_idx):
         row = table[row_idx]
         
         # Skip if row is too short
-        if not row or len(row) < 12:
+        if not row or len(row) < 11:
             continue
         
-        # Check if this row has a food name in Col 0
-        food_name = row[0]
-        if not food_name or not str(food_name).strip():
+        # Check if this row has any price data
+        has_price = False
+        for col_idx in [2, 4, 6, 8, 10]:
+            if col_idx < len(row) and row[col_idx]:
+                has_price = True
+                break
+        
+        if not has_price:
             continue
         
-        food_name = str(food_name).strip()
+        # Get product name
+        if product_idx < len(product_names):
+            product_name = product_names[product_idx]
+            product_idx += 1
+        else:
+            product_name = f"Item {product_idx + 1}"
         
-        # Skip section headers
-        if any(kw in food_name.upper().replace(' ', '') for kw in ['VEGETABLES', 'OTHER', 'FRUITS', 'RICE', 'FISH', 'MEAT']):
-            break
-        
-        # Extract TODAY prices from each market column
+        # Extract TODAY prices from each market
         for market_name, col_idx in MARKET_COLUMNS.items():
             if col_idx < len(row) and row[col_idx]:
-                price = parse_price(str(row[col_idx]))
-                if price is not None:
+                today_price = parse_today_price(str(row[col_idx]))
+                if today_price is not None:
                     section_data.append({
                         'Date': report_date,
                         'Section': section_name,
-                        'Product': food_name,
+                        'Product': product_name,
                         'Market': market_name,
                         'Unit': 'Rs./kg',
-                        'Price Today': price,
+                        'Price Today': today_price,
                         'Source File': filename
                     })
     
@@ -226,8 +272,8 @@ def main():
         print(f"\nRecords by Section:")
         print(df.groupby('Section').size())
         
-        print(f"\nFirst 20 records:")
-        print(df.head(20).to_string(index=False))
+        print(f"\nFirst 30 records:")
+        print(df.head(30).to_string(index=False))
         
     else:
         print("\n" + "=" * 60)
