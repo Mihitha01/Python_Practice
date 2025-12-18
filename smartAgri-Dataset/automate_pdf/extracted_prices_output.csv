@@ -1,0 +1,831 @@
+Date,Section,Product,Market,Unit,Price Today,Source File
+01 December 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,60.0,price_report_20251201_e.pdf
+01 December 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,180.0,price_report_20251201_e.pdf
+01 December 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,220.0,price_report_20251201_e.pdf
+01 December 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,180.0,price_report_20251201_e.pdf
+01 December 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,180.0,price_report_20251201_e.pdf
+01 December 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,750.0,price_report_20251201_e.pdf
+01 December 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,750.0,price_report_20251201_e.pdf
+01 December 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,960.0,price_report_20251201_e.pdf
+01 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,35.0,price_report_20251201_e.pdf
+01 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,35.5,price_report_20251201_e.pdf
+01 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,33.0,price_report_20251201_e.pdf
+01 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251201_e.pdf
+01 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251201_e.pdf
+01 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251201_e.pdf
+01 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251201_e.pdf
+01 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251201_e.pdf
+01 December 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,250.0,price_report_20251201_e.pdf
+01 December 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,270.0,price_report_20251201_e.pdf
+01 December 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,260.0,price_report_20251201_e.pdf
+01 December 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,93.0,price_report_20251201_e.pdf
+01 December 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,220.0,price_report_20251201_e.pdf
+01 December 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,220.0,price_report_20251201_e.pdf
+01 December 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,360.0,price_report_20251201_e.pdf
+01 December 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,180.0,price_report_20251201_e.pdf
+01 December 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,235.0,price_report_20251201_e.pdf
+01 December 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,220.0,price_report_20251201_e.pdf
+01 December 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,163.0,price_report_20251201_e.pdf
+01 December 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,168.0,price_report_20251201_e.pdf
+01 December 2025,Other,Red Onion (Local),Narahenpita (Retail),Rs./kg,440.0,price_report_20251201_e.pdf
+01 December 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,20.0,price_report_20251201_e.pdf
+01 December 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,370.0,price_report_20251201_e.pdf
+01 December 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,200.0,price_report_20251201_e.pdf
+01 December 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,215.0,price_report_20251201_e.pdf
+01 December 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,225.0,price_report_20251201_e.pdf
+01 December 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,10.0,price_report_20251201_e.pdf
+01 December 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,867.0,price_report_20251201_e.pdf
+01 December 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,866.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,200.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,525.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,250.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,555.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,600.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,350.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,400.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,600.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,300.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,350.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,600.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,600.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,650.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,200.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,900.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,0.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,800.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,800.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,600.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,100.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,150.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,240.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,400.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,450.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,600.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,300.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,350.0,price_report_20251201_e.pdf
+01 December 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,480.0,price_report_20251201_e.pdf
+02 December 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,67.0,price_report_20251202_e.pdf
+02 December 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,80.0,price_report_20251202_e.pdf
+02 December 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251202_e.pdf
+02 December 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,88.0,price_report_20251202_e.pdf
+02 December 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,88.0,price_report_20251202_e.pdf
+02 December 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251202_e.pdf
+02 December 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,50.0,price_report_20251202_e.pdf
+02 December 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251202_e.pdf
+02 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,5.0,price_report_20251202_e.pdf
+02 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,5.5,price_report_20251202_e.pdf
+02 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,3.0,price_report_20251202_e.pdf
+02 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251202_e.pdf
+02 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251202_e.pdf
+02 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,100.0,price_report_20251202_e.pdf
+02 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,200.0,price_report_20251202_e.pdf
+02 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251202_e.pdf
+02 December 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251202_e.pdf
+02 December 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251202_e.pdf
+02 December 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251202_e.pdf
+02 December 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,83.0,price_report_20251202_e.pdf
+02 December 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,20.0,price_report_20251202_e.pdf
+02 December 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251202_e.pdf
+02 December 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,400.0,price_report_20251202_e.pdf
+02 December 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,60.0,price_report_20251202_e.pdf
+02 December 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,90.0,price_report_20251202_e.pdf
+02 December 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,20.0,price_report_20251202_e.pdf
+02 December 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,350.0,price_report_20251202_e.pdf
+02 December 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,53.0,price_report_20251202_e.pdf
+02 December 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,58.0,price_report_20251202_e.pdf
+02 December 2025,Other,Red Onion (Local),Narahenpita (Retail),Rs./kg,40.0,price_report_20251202_e.pdf
+02 December 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,40.0,price_report_20251202_e.pdf
+02 December 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,70.0,price_report_20251202_e.pdf
+02 December 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251202_e.pdf
+02 December 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251202_e.pdf
+02 December 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,10.0,price_report_20251202_e.pdf
+02 December 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251202_e.pdf
+02 December 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,66.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,25.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,55.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,200.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,50.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,80.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,50.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,50.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,50.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,200.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,30.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,20.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,50.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,0.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,50.0,price_report_20251202_e.pdf
+02 December 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,60.0,price_report_20251202_e.pdf
+03 December 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,73.0,price_report_20251203_e.pdf
+03 December 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,80.0,price_report_20251203_e.pdf
+03 December 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251203_e.pdf
+03 December 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,98.0,price_report_20251203_e.pdf
+03 December 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,98.0,price_report_20251203_e.pdf
+03 December 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251203_e.pdf
+03 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,8.0,price_report_20251203_e.pdf
+03 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,8.5,price_report_20251203_e.pdf
+03 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251203_e.pdf
+03 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251203_e.pdf
+03 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251203_e.pdf
+03 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251203_e.pdf
+03 December 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251203_e.pdf
+03 December 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251203_e.pdf
+03 December 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,78.0,price_report_20251203_e.pdf
+03 December 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,20.0,price_report_20251203_e.pdf
+03 December 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251203_e.pdf
+03 December 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,75.0,price_report_20251203_e.pdf
+03 December 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,60.0,price_report_20251203_e.pdf
+03 December 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,90.0,price_report_20251203_e.pdf
+03 December 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,20.0,price_report_20251203_e.pdf
+03 December 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,33.0,price_report_20251203_e.pdf
+03 December 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,65.0,price_report_20251203_e.pdf
+03 December 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,70.0,price_report_20251203_e.pdf
+03 December 2025,Other,Red Onion (Local),Narahenpita (Retail),Rs./kg,40.0,price_report_20251203_e.pdf
+03 December 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,43.0,price_report_20251203_e.pdf
+03 December 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,70.0,price_report_20251203_e.pdf
+03 December 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251203_e.pdf
+03 December 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251203_e.pdf
+03 December 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,10.0,price_report_20251203_e.pdf
+03 December 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251203_e.pdf
+03 December 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,66.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,80.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,80.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,200.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,30.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,220.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,50.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+03 December 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,0.0,price_report_20251203_e.pdf
+05 December 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,88.0,price_report_20251205_e.pdf
+05 December 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,30.0,price_report_20251205_e.pdf
+05 December 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251205_e.pdf
+05 December 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,20.0,price_report_20251205_e.pdf
+05 December 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,80.0,price_report_20251205_e.pdf
+05 December 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,25.0,price_report_20251205_e.pdf
+05 December 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,50.0,price_report_20251205_e.pdf
+05 December 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251205_e.pdf
+05 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,2.0,price_report_20251205_e.pdf
+05 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,2.5,price_report_20251205_e.pdf
+05 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251205_e.pdf
+05 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251205_e.pdf
+05 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251205_e.pdf
+05 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251205_e.pdf
+05 December 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,55.0,price_report_20251205_e.pdf
+05 December 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251205_e.pdf
+05 December 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251205_e.pdf
+05 December 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,80.0,price_report_20251205_e.pdf
+05 December 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,20.0,price_report_20251205_e.pdf
+05 December 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251205_e.pdf
+05 December 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,57.0,price_report_20251205_e.pdf
+05 December 2025,Other,Potato (Local),Pettah (Retail),Rs./kg,370.0,price_report_20251205_e.pdf
+05 December 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,60.0,price_report_20251205_e.pdf
+05 December 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,70.0,price_report_20251205_e.pdf
+05 December 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,20.0,price_report_20251205_e.pdf
+05 December 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,17.0,price_report_20251205_e.pdf
+05 December 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,55.0,price_report_20251205_e.pdf
+05 December 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,60.0,price_report_20251205_e.pdf
+05 December 2025,Other,Red Onion (Local),Narahenpita (Retail),Rs./kg,40.0,price_report_20251205_e.pdf
+05 December 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,58.0,price_report_20251205_e.pdf
+05 December 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251205_e.pdf
+05 December 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251205_e.pdf
+05 December 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,15.0,price_report_20251205_e.pdf
+05 December 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251205_e.pdf
+05 December 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,66.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,90.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,20.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,50.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,50.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,50.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,80.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,20.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,70.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,200.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,50.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,0.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,50.0,price_report_20251205_e.pdf
+05 December 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,60.0,price_report_20251205_e.pdf
+08 December 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,95.0,price_report_20251208_e.pdf
+08 December 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,30.0,price_report_20251208_e.pdf
+08 December 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,40.0,price_report_20251208_e.pdf
+08 December 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,43.0,price_report_20251208_e.pdf
+08 December 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,80.0,price_report_20251208_e.pdf
+08 December 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,67.0,price_report_20251208_e.pdf
+08 December 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,50.0,price_report_20251208_e.pdf
+08 December 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251208_e.pdf
+08 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,2.0,price_report_20251208_e.pdf
+08 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,2.5,price_report_20251208_e.pdf
+08 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,5.0,price_report_20251208_e.pdf
+08 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251208_e.pdf
+08 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251208_e.pdf
+08 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251208_e.pdf
+08 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251208_e.pdf
+08 December 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251208_e.pdf
+08 December 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251208_e.pdf
+08 December 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251208_e.pdf
+08 December 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,81.0,price_report_20251208_e.pdf
+08 December 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,20.0,price_report_20251208_e.pdf
+08 December 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251208_e.pdf
+08 December 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,57.0,price_report_20251208_e.pdf
+08 December 2025,Other,Potato (Local),Pettah (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,80.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,70.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,20.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,87.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,55.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,60.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Onion (Local),Narahenpita (Retail),Rs./kg,440.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,58.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Other,Red Onion (lmp),Narahenpita (Retail),Rs./kg,480.0,price_report_20251208_e.pdf
+08 December 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251208_e.pdf
+08 December 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251208_e.pdf
+08 December 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,10.0,price_report_20251208_e.pdf
+08 December 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251208_e.pdf
+08 December 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,66.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,25.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,100.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,55.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,400.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,50.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,50.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,20.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,50.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,20.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,70.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,80.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,50.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,50.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+08 December 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,0.0,price_report_20251208_e.pdf
+09 December 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,94.0,price_report_20251209_e.pdf
+09 December 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,30.0,price_report_20251209_e.pdf
+09 December 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,40.0,price_report_20251209_e.pdf
+09 December 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,43.0,price_report_20251209_e.pdf
+09 December 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,80.0,price_report_20251209_e.pdf
+09 December 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251209_e.pdf
+09 December 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,67.0,price_report_20251209_e.pdf
+09 December 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251209_e.pdf
+09 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,3.0,price_report_20251209_e.pdf
+09 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,3.5,price_report_20251209_e.pdf
+09 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,5.0,price_report_20251209_e.pdf
+09 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251209_e.pdf
+09 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251209_e.pdf
+09 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251209_e.pdf
+09 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251209_e.pdf
+09 December 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,55.0,price_report_20251209_e.pdf
+09 December 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251209_e.pdf
+09 December 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251209_e.pdf
+09 December 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,75.0,price_report_20251209_e.pdf
+09 December 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,20.0,price_report_20251209_e.pdf
+09 December 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251209_e.pdf
+09 December 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,56.0,price_report_20251209_e.pdf
+09 December 2025,Other,Potato (Local),Pettah (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,80.0,price_report_20251209_e.pdf
+09 December 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,60.0,price_report_20251209_e.pdf
+09 December 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,20.0,price_report_20251209_e.pdf
+09 December 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,55.0,price_report_20251209_e.pdf
+09 December 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,60.0,price_report_20251209_e.pdf
+09 December 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,45.0,price_report_20251209_e.pdf
+09 December 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Other,Red Onion (lmp),Narahenpita (Retail),Rs./kg,80.0,price_report_20251209_e.pdf
+09 December 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251209_e.pdf
+09 December 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251209_e.pdf
+09 December 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,20.0,price_report_20251209_e.pdf
+09 December 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251209_e.pdf
+09 December 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,66.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,40.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,70.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,400.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,50.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,50.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,40.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,50.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,50.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,20.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,70.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,50.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,50.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+09 December 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,0.0,price_report_20251209_e.pdf
+10 December 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,90.0,price_report_20251210_e.pdf
+10 December 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,30.0,price_report_20251210_e.pdf
+10 December 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,40.0,price_report_20251210_e.pdf
+10 December 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,50.0,price_report_20251210_e.pdf
+10 December 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,80.0,price_report_20251210_e.pdf
+10 December 2025,Other,Big Onion (Local),Narahenpita (Retail),Rs./kg,280.0,price_report_20251210_e.pdf
+10 December 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251210_e.pdf
+10 December 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,67.0,price_report_20251210_e.pdf
+10 December 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251210_e.pdf
+10 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,3.0,price_report_20251210_e.pdf
+10 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,3.5,price_report_20251210_e.pdf
+10 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,5.0,price_report_20251210_e.pdf
+10 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251210_e.pdf
+10 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251210_e.pdf
+10 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251210_e.pdf
+10 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251210_e.pdf
+10 December 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,55.0,price_report_20251210_e.pdf
+10 December 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251210_e.pdf
+10 December 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251210_e.pdf
+10 December 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,54.0,price_report_20251210_e.pdf
+10 December 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,20.0,price_report_20251210_e.pdf
+10 December 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251210_e.pdf
+10 December 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,37.0,price_report_20251210_e.pdf
+10 December 2025,Other,Potato (Local),Pettah (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,80.0,price_report_20251210_e.pdf
+10 December 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,60.0,price_report_20251210_e.pdf
+10 December 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,30.0,price_report_20251210_e.pdf
+10 December 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,45.0,price_report_20251210_e.pdf
+10 December 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,50.0,price_report_20251210_e.pdf
+10 December 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,38.0,price_report_20251210_e.pdf
+10 December 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Other,Red Onion (lmp),Narahenpita (Retail),Rs./kg,80.0,price_report_20251210_e.pdf
+10 December 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251210_e.pdf
+10 December 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251210_e.pdf
+10 December 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,20.0,price_report_20251210_e.pdf
+10 December 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251210_e.pdf
+10 December 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,66.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,25.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,55.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,400.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,50.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,50.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,40.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,50.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,50.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,20.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,70.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,60.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,50.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,50.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+10 December 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,0.0,price_report_20251210_e.pdf
+11 December 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,84.0,price_report_20251211_e.pdf
+11 December 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,30.0,price_report_20251211_e.pdf
+11 December 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,40.0,price_report_20251211_e.pdf
+11 December 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,30.0,price_report_20251211_e.pdf
+11 December 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,80.0,price_report_20251211_e.pdf
+11 December 2025,Other,Big Onion (Local),Narahenpita (Retail),Rs./kg,80.0,price_report_20251211_e.pdf
+11 December 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,53.0,price_report_20251211_e.pdf
+11 December 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,67.0,price_report_20251211_e.pdf
+11 December 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251211_e.pdf
+11 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,3.0,price_report_20251211_e.pdf
+11 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,3.5,price_report_20251211_e.pdf
+11 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,5.0,price_report_20251211_e.pdf
+11 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251211_e.pdf
+11 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251211_e.pdf
+11 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251211_e.pdf
+11 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251211_e.pdf
+11 December 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,55.0,price_report_20251211_e.pdf
+11 December 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251211_e.pdf
+11 December 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251211_e.pdf
+11 December 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,52.0,price_report_20251211_e.pdf
+11 December 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,20.0,price_report_20251211_e.pdf
+11 December 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251211_e.pdf
+11 December 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,17.0,price_report_20251211_e.pdf
+11 December 2025,Other,Potato (Local),Pettah (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,80.0,price_report_20251211_e.pdf
+11 December 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,60.0,price_report_20251211_e.pdf
+11 December 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,30.0,price_report_20251211_e.pdf
+11 December 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,45.0,price_report_20251211_e.pdf
+11 December 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,45.0,price_report_20251211_e.pdf
+11 December 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,50.0,price_report_20251211_e.pdf
+11 December 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,92.0,price_report_20251211_e.pdf
+11 December 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Other,Red Onion (lmp),Narahenpita (Retail),Rs./kg,80.0,price_report_20251211_e.pdf
+11 December 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251211_e.pdf
+11 December 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251211_e.pdf
+11 December 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,20.0,price_report_20251211_e.pdf
+11 December 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251211_e.pdf
+11 December 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,66.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,65.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,95.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,400.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,50.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,50.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,50.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,60.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,50.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,30.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,80.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,50.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,50.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+11 December 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,0.0,price_report_20251211_e.pdf
+12 December 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,80.0,price_report_20251212_e.pdf
+12 December 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,30.0,price_report_20251212_e.pdf
+12 December 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,40.0,price_report_20251212_e.pdf
+12 December 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,38.0,price_report_20251212_e.pdf
+12 December 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,80.0,price_report_20251212_e.pdf
+12 December 2025,Other,Big Onion (Local),Narahenpita (Retail),Rs./kg,80.0,price_report_20251212_e.pdf
+12 December 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,25.0,price_report_20251212_e.pdf
+12 December 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,50.0,price_report_20251212_e.pdf
+12 December 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251212_e.pdf
+12 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,3.0,price_report_20251212_e.pdf
+12 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,3.5,price_report_20251212_e.pdf
+12 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,5.0,price_report_20251212_e.pdf
+12 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251212_e.pdf
+12 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251212_e.pdf
+12 December 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251212_e.pdf
+12 December 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251212_e.pdf
+12 December 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,55.0,price_report_20251212_e.pdf
+12 December 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251212_e.pdf
+12 December 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251212_e.pdf
+12 December 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,64.0,price_report_20251212_e.pdf
+12 December 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,20.0,price_report_20251212_e.pdf
+12 December 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251212_e.pdf
+12 December 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,40.0,price_report_20251212_e.pdf
+12 December 2025,Other,Potato (Local),Pettah (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,80.0,price_report_20251212_e.pdf
+12 December 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,60.0,price_report_20251212_e.pdf
+12 December 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,30.0,price_report_20251212_e.pdf
+12 December 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,87.0,price_report_20251212_e.pdf
+12 December 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,45.0,price_report_20251212_e.pdf
+12 December 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,50.0,price_report_20251212_e.pdf
+12 December 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,38.0,price_report_20251212_e.pdf
+12 December 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Other,Red Onion (lmp),Narahenpita (Retail),Rs./kg,80.0,price_report_20251212_e.pdf
+12 December 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,99.0,price_report_20251212_e.pdf
+12 December 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251212_e.pdf
+12 December 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251212_e.pdf
+12 December 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,20.0,price_report_20251212_e.pdf
+12 December 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251212_e.pdf
+12 December 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,89.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,45.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,75.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,200.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,50.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,50.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,60.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,50.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,60.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,50.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,50.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,30.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,60.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,50.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,50.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+12 December 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,0.0,price_report_20251212_e.pdf
+26 November 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,31.0,price_report_20251126_e.pdf
+26 November 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,80.0,price_report_20251126_e.pdf
+26 November 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,80.0,price_report_20251126_e.pdf
+26 November 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,48.0,price_report_20251126_e.pdf
+26 November 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,80.0,price_report_20251126_e.pdf
+26 November 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251126_e.pdf
+26 November 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,75.0,price_report_20251126_e.pdf
+26 November 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251126_e.pdf
+26 November 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Other,Item 12,Pettah (Retail),Rs./kg,0.5,price_report_20251126_e.pdf
+26 November 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,3.0,price_report_20251126_e.pdf
+26 November 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251126_e.pdf
+26 November 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251126_e.pdf
+26 November 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251126_e.pdf
+26 November 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251126_e.pdf
+26 November 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,40.0,price_report_20251126_e.pdf
+26 November 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251126_e.pdf
+26 November 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251126_e.pdf
+26 November 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,55.0,price_report_20251126_e.pdf
+26 November 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251126_e.pdf
+26 November 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,68.0,price_report_20251126_e.pdf
+26 November 2025,Other,Potato (Local),Pettah (Retail),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,60.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,55.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,85.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,20.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,33.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Onion (Local),Pettah (Retail),Rs./kg,50.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,38.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,78.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,30.0,price_report_20251126_e.pdf
+26 November 2025,Other,Red Onion (lmp),Narahenpita (Retail),Rs./kg,40.0,price_report_20251126_e.pdf
+26 November 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,99.0,price_report_20251126_e.pdf
+26 November 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251126_e.pdf
+26 November 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251126_e.pdf
+26 November 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,10.0,price_report_20251126_e.pdf
+26 November 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251126_e.pdf
+26 November 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,43.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,45.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,50.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,75.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,50.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,80.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,50.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,40.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,50.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,80.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,50.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,200.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,20.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,50.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,50.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,0.0,price_report_20251126_e.pdf
+26 November 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,40.0,price_report_20251126_e.pdf
+27 November 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,29.0,price_report_20251127_e.pdf
+27 November 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,80.0,price_report_20251127_e.pdf
+27 November 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,80.0,price_report_20251127_e.pdf
+27 November 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,48.0,price_report_20251127_e.pdf
+27 November 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,80.0,price_report_20251127_e.pdf
+27 November 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251127_e.pdf
+27 November 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,75.0,price_report_20251127_e.pdf
+27 November 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251127_e.pdf
+27 November 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Other,Item 12,Pettah (Retail),Rs./kg,0.5,price_report_20251127_e.pdf
+27 November 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,3.0,price_report_20251127_e.pdf
+27 November 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251127_e.pdf
+27 November 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251127_e.pdf
+27 November 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251127_e.pdf
+27 November 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251127_e.pdf
+27 November 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,40.0,price_report_20251127_e.pdf
+27 November 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,70.0,price_report_20251127_e.pdf
+27 November 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,60.0,price_report_20251127_e.pdf
+27 November 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,54.0,price_report_20251127_e.pdf
+27 November 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,20.0,price_report_20251127_e.pdf
+27 November 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,78.0,price_report_20251127_e.pdf
+27 November 2025,Other,Potato (Local),Pettah (Retail),Rs./kg,30.0,price_report_20251127_e.pdf
+27 November 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,60.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,50.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,85.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,20.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,63.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Onion (Local),Pettah (Retail),Rs./kg,50.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,68.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,78.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,30.0,price_report_20251127_e.pdf
+27 November 2025,Other,Red Onion (lmp),Narahenpita (Retail),Rs./kg,40.0,price_report_20251127_e.pdf
+27 November 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,99.0,price_report_20251127_e.pdf
+27 November 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,15.0,price_report_20251127_e.pdf
+27 November 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,25.0,price_report_20251127_e.pdf
+27 November 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,10.0,price_report_20251127_e.pdf
+27 November 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,67.0,price_report_20251127_e.pdf
+27 November 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,66.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,50.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,50.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,80.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,50.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,80.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,40.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,80.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,40.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,80.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,30.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,80.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,50.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,200.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,20.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,50.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,0.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,50.0,price_report_20251127_e.pdf
+27 November 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,40.0,price_report_20251127_e.pdf
+28 November 2025,Other,Big Onion (Imp),Pettah (Wholesale),Rs./kg,20.0,price_report_20251128_e.pdf
+28 November 2025,Other,Big Onion (Imp),Pettah (Retail),Rs./kg,180.0,price_report_20251128_e.pdf
+28 November 2025,Other,Big Onion (Imp),Narahenpita (Retail),Rs./kg,180.0,price_report_20251128_e.pdf
+28 November 2025,Other,Big Onion (Local),Pettah (Wholesale),Rs./kg,148.0,price_report_20251128_e.pdf
+28 November 2025,Other,Big Onion (Local),Pettah (Retail),Rs./kg,180.0,price_report_20251128_e.pdf
+28 November 2025,Other,Dried Chilli (Imp),Pettah (Wholesale),Rs./kg,750.0,price_report_20251128_e.pdf
+28 November 2025,Other,Dried Chilli (Imp),Pettah (Retail),Rs./kg,775.0,price_report_20251128_e.pdf
+28 November 2025,Other,Dried Chilli (Imp),Narahenpita (Retail),Rs./kg,960.0,price_report_20251128_e.pdf
+28 November 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,30.0,price_report_20251128_e.pdf
+28 November 2025,Other,Item 12,Pettah (Retail),Rs./kg,30.5,price_report_20251128_e.pdf
+28 November 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,33.0,price_report_20251128_e.pdf
+28 November 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,600.0,price_report_20251128_e.pdf
+28 November 2025,Other,Item 12,Pettah (Retail),Rs./kg,950.0,price_report_20251128_e.pdf
+28 November 2025,Other,Item 12,Pettah (Wholesale),Rs./kg,0.0,price_report_20251128_e.pdf
+28 November 2025,Other,Item 12,Pettah (Retail),Rs./kg,100.0,price_report_20251128_e.pdf
+28 November 2025,Other,Item 12,Narahenpita (Retail),Rs./kg,400.0,price_report_20251128_e.pdf
+28 November 2025,Other,Katta (Imp),Pettah (Wholesale),Rs./kg,240.0,price_report_20251128_e.pdf
+28 November 2025,Other,Katta (Imp),Pettah (Retail),Rs./kg,270.0,price_report_20251128_e.pdf
+28 November 2025,Other,Katta (Imp),Narahenpita (Retail),Rs./kg,260.0,price_report_20251128_e.pdf
+28 November 2025,Other,Potato (Imp),Pettah (Wholesale),Rs./kg,50.0,price_report_20251128_e.pdf
+28 November 2025,Other,Potato (Imp),Pettah (Retail),Rs./kg,200.0,price_report_20251128_e.pdf
+28 November 2025,Other,Potato (Imp),Narahenpita (Retail),Rs./kg,220.0,price_report_20251128_e.pdf
+28 November 2025,Other,Potato (Local),Pettah (Wholesale),Rs./kg,278.0,price_report_20251128_e.pdf
+28 November 2025,Other,Potato (Local),Pettah (Retail),Rs./kg,330.0,price_report_20251128_e.pdf
+28 November 2025,Other,Potato (Local),Narahenpita (Retail),Rs./kg,360.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Dhal,Pettah (Wholesale),Rs./kg,150.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Dhal,Pettah (Retail),Rs./kg,185.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Dhal,Narahenpita (Retail),Rs./kg,220.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Onion (Local),Pettah (Wholesale),Rs./kg,300.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Onion (Local),Dambulla (Wholesale),Rs./kg,163.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Onion (Local),Pettah (Retail),Rs./kg,350.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Onion (Local),Dambulla (Retail),Rs./kg,168.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Onion (lmp),Pettah (Wholesale),Rs./kg,80.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Onion (lmp),Pettah (Retail),Rs./kg,330.0,price_report_20251128_e.pdf
+28 November 2025,Other,Red Onion (lmp),Narahenpita (Retail),Rs./kg,440.0,price_report_20251128_e.pdf
+28 November 2025,Other,Sprat (Imp),Pettah (Wholesale),Rs./kg,199.0,price_report_20251128_e.pdf
+28 November 2025,Other,Sprat (Imp),Pettah (Retail),Rs./kg,215.0,price_report_20251128_e.pdf
+28 November 2025,Other,Sprat (Imp),Narahenpita (Retail),Rs./kg,225.0,price_report_20251128_e.pdf
+28 November 2025,Other,Sugar (White),Pettah (Wholesale),Rs./kg,20.0,price_report_20251128_e.pdf
+28 November 2025,Other,Sugar (White),Pettah (Retail),Rs./kg,867.0,price_report_20251128_e.pdf
+28 November 2025,Other,Sugar (White),Narahenpita (Retail),Rs./kg,866.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Beans,Pettah (Wholesale),Rs./kg,600.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Beans,Dambulla (Wholesale),Rs./kg,450.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Beans,Pettah (Retail),Rs./kg,650.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Beans,Dambulla (Retail),Rs./kg,480.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Beans,Narahenpita (Retail),Rs./kg,700.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Brinjal,Pettah (Wholesale),Rs./kg,250.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Brinjal,Pettah (Retail),Rs./kg,300.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Brinjal,Narahenpita (Retail),Rs./kg,480.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Cabbage,Pettah (Wholesale),Rs./kg,140.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Cabbage,Pettah (Retail),Rs./kg,180.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Cabbage,Narahenpita (Retail),Rs./kg,240.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Carrot,Pettah (Wholesale),Rs./kg,280.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Carrot,Pettah (Retail),Rs./kg,330.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Carrot,Narahenpita (Retail),Rs./kg,280.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Green Chilli,Pettah (Wholesale),Rs./kg,500.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Green Chilli,Pettah (Retail),Rs./kg,550.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Green Chilli,Narahenpita (Retail),Rs./kg,500.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Lime,Pettah (Wholesale),Rs./kg,800.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Lime,Pettah (Retail),Rs./kg,0.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Lime,Narahenpita (Retail),Rs./kg,200.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Pumpkin,Pettah (Wholesale),Rs./kg,60.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Pumpkin,Pettah (Retail),Rs./kg,100.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Pumpkin,Narahenpita (Retail),Rs./kg,120.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Snake gourd,Pettah (Wholesale),Rs./kg,350.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Snake gourd,Pettah (Retail),Rs./kg,400.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Snake gourd,Narahenpita (Retail),Rs./kg,400.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Tomato,Pettah (Wholesale),Rs./kg,200.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Tomato,Pettah (Retail),Rs./kg,250.0,price_report_20251128_e.pdf
+28 November 2025,Vegetables,Tomato,Narahenpita (Retail),Rs./kg,240.0,price_report_20251128_e.pdf

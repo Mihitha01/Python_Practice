@@ -14,7 +14,7 @@ import glob
 # CONFIGURATION
 # ==========================================
 PDF_FOLDER = '../price_pdfs_2025_01'
-OUTPUT_FILE = './extracted_prices.csv'
+OUTPUT_FILE = 'extracted_prices.csv'
 
 # TODAY price columns (cols contain "yesterday today" format)
 # Col 2: Pettah WS, Col 4: Dambulla WS, Col 6: Pettah Retail, Col 8: Dambulla Retail, Col 10: Narahenpita Retail
@@ -277,7 +277,7 @@ def main():
         
     else:
         print("\n" + "=" * 60)
-        print("✗ No data extracted. Check PDF structure.")
+        print("No data extracted. Check PDF structure.")
         print("=" * 60)
 
 
