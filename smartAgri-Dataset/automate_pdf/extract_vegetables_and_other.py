@@ -249,7 +249,7 @@ def main():
         
         data = process_pdf(filepath)
         all_data.extend(data)
-        print(f"✓ {len(data)} records")
+        print(f"OK {len(data)} records")
     
     # Save to CSV
     if all_data:
@@ -261,7 +261,7 @@ def main():
         df.to_csv(OUTPUT_FILE, index=False)
         
         print("\n" + "=" * 60)
-        print(f"✓ SUCCESS - Extraction Complete!")
+        print(f"SUCCESS - Extraction Complete!")
         print("=" * 60)
         print(f"Total records extracted: {len(df)}")
         print(f"Date range: {df['Date'].min()} to {df['Date'].max()}")
