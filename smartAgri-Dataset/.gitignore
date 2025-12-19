@@ -1,0 +1,13 @@
+# Auto-downloaded PDFs
+*.pdf
+price_pdfs_*/
+downloads/
+data/
+
+# Python junk
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
