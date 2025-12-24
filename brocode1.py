@@ -1,3 +1,8 @@
 print("Hello Wolrd")
 
-print("Hello World")
+num1 = 20
+num2 = 30
+
+sum = num1 + num2
+
+print("The sum is:", sum)
