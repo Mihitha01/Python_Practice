@@ -1,0 +1,22 @@
+{
+  "editor.quickSuggestions": {
+    "other": "off"
+},
+  "editor.parameterHints.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.suggest.showWords": false,
+  "editor.suggest.showSnippets": false,
+  "editor.suggest.showFunctions": false,
+  "editor.suggest.showVariables": false,
+  "editor.suggest.showClasses": false,
+  "editor.suggest.showMethods": false,
+  "editor.suggest.showStructs": false,
+  "editor.suggest.showModules": false,
+  "editor.suggest.showProperties": false,
+  "editor.suggest.showEvents": false,
+  "editor.suggest.showOperators": false,
+  "editor.suggest.showInterfaces": false,
+  "editor.suggest.showTypeParameters": false
+}
