@@ -1,0 +1,72 @@
+{
+    "audioCues.enabled": "off",
+    "accessibility.signals.lineHasError": {
+        "sound": "off"
+    },
+    "accessibility.signals.lineHasWarning": "off",
+    "accessibility.signals.lineHasBreakpoint": {
+        "sound": "off"
+    },
+    "accessibility.signals.terminalCommandFailed": {
+        "sound": "off"
+    },
+    "accessibility.signals.terminalQuickFix": {
+        "sound": "off"
+    },
+    "accessibility.signals.onDebugBreak": {
+        "sound": "off"
+    },
+    "accessibility.signals.noInlayHints": "off",
+    "accessibility.signals.taskCompleted": {
+        "sound": "off"
+    },
+    "accessibility.signals.taskFailed": {
+        "sound": "off"
+    },
+    "accessibility.signals.chatRequestSent": {
+        "sound": "off"
+    },
+    "accessibility.signals.chatResponseReceived": {
+        "sound": "off"
+    },
+    "accessibility.signals.progress": "off",
+    "accessibility.signals.positionHasError": "off",
+    "accessibility.signals.positionHasWarning": "off",
+    "accessibility.signals.clear": {
+        "sound": "off"
+    },
+    "accessibility.signals.save": {
+        "sound": "off"
+    },
+    "accessibility.signals.format": {
+        "sound": "off"
+    },
+    "screenReaderAnnounceInlineSuggestion": false,
+    "accessibility.verbosity.terminal": false,
+    "accessibility.verbosity.diff-editor": false,
+    "accessibility.verbosity.chat": false,
+    "accessibility.verbosity.notebook": false,
+    "accessibility.verbosity.editor": false,
+    "accessibility.verbosity.keybindingsEditor": false,
+    "chat.editor.fontFamily": "default",
+    "workbench.enableExperiments": false,
+    "accessibility.signalOptions.volume": 0,
+    "accessibility.signals.lineHasInlineSuggestion": {
+        "sound": "off"
+    },
+    "accessibility.signals.notebookCellCompleted": {
+        "sound": "off"
+    },
+    "accessibility.signals.notebookCellFailed": {
+        "sound": "off"
+    },
+    "accessibility.signals.diffLineInserted": {
+        "sound": "off"
+    },
+    "accessibility.signals.diffLineDeleted": {
+        "sound": "off"
+    },
+    "accessibility.signals.diffLineModified": {
+        "sound": "off"
+    }
+}
