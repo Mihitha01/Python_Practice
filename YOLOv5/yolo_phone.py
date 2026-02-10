@@ -1,6 +1,10 @@
 import torch
 import cv2
 
+#print(torch.__version__)
+#print(cv2.__version__)
+
+
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained = True)
 
 cap = cv2.VideoCapture(0)
