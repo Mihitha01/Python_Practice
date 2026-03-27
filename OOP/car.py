@@ -10,4 +10,4 @@ class Car:
         print("This "+self.model+" is driving.")
     
     def stop(self):
-        print("This car has stopped.")
+        print("This "+self.model+" has stopped.")
