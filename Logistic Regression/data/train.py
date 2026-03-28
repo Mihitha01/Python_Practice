@@ -29,7 +29,7 @@ print(f"Accuracy: {accuracy}")
 print(f"Confusion Matrix: {conf_matrix}")
 print(f"Classification Report: {class_report}")
 
-joblib.dump(model, "models/logistic_regression_model.pkl")
-joblib.dump(scaler, "models/scaler.pkl")
+joblib.dump(model, "D:/Python/Logistic Regression/models/logistic_regression_model.pkl")
+joblib.dump(scaler, "D:/Python/Logistic Regression/models/scaler.pkl")
 
-
+print("saved model and scaler successfully.")
