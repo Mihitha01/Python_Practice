@@ -10,8 +10,8 @@ else:
     print("Failed")
 '''
 
-age = 20
-has_id = True
+age = 25
+has_id = False
 
 if age >= 18 and has_id:
     print("Legal")
