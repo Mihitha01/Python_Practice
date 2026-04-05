@@ -1,3 +1,4 @@
+
 class Stack:
     def __init__(self): #self - Current Object
         self.items = [] #Creates an empty list to store stack elements
@@ -16,7 +17,7 @@ class Stack:
     def peek(self):
         if self.is_empty():
             return "Stack is empty"
-        return self.items[-1]
+        return self.items[-1] #access last element
 
     # Check if stack is empty
     def is_empty(self):
@@ -49,3 +50,4 @@ s.display()
 
 print("Is empty?", s.is_empty())
 print("Size:", s.size())
+
