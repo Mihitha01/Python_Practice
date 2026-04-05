@@ -29,4 +29,24 @@ class B(A):
         print("B")
 
 obj = B()
-obj.show()        
+obj.show() 
+
+for i in range(5):
+    print(i)
+
+arr = ["Alice","Malic","Adam"]
+
+print(arr)
+
+rev_arr = arr[::-1]
+print(rev_arr)
+
+string = input()
+
+def is_palindrome(string):
+    return string == string[::-1]
+
+print(is_palindrome(string))
+
+
+    
